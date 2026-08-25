@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "West Monroe",
+    "spec_type": "surface_composition",
+    "version": "2026-04-29-surface-composition",
+    "status": "partial_v3_input"
+  },
+  "font_rule": {
+    "heading_font_family": "IBM Plex Sans",
+    "body_font_family": "Arial",
+    "rule": "Use IBM Plex Sans for headings and display type. Use Arial for body copy and UI copy."
+  },
+  "canvas": {
+    "default_background": "#F8F8F8",
+    "content_surface": "#FFFFFF",
+    "primary_text_and_structure": "#070154",
+    "rule": "Use Canvas Gray for the page floor, White for separated content surfaces, and Grounded Blue for primary text and structure."
+  },
+  "corner_radius": {
+    "default_px": 0,
+    "default_rule": "Use square corners for boxes, cards, panels, containers, images, chart containers, tables, and layout surfaces.",
+    "exception_rule": "Approved buttons and search fields may use the rounded component treatment from the source component library.",
+    "exception_recommended_px": 4,
+    "button_radius_px": 80,
+    "search_radius_px": 80,
+    "search_dropdown_radius_px": 20,
+    "exception_max_without_review_px": 8,
+    "disallowed": [
+      "large rounded layout containers",
+      "rounded image frames",
+      "rounded hero panels",
+      "rounded dashboard panels",
+      "pill shapes outside approved button and search components"
+    ],
+    "llm_rule": "Assume square corners for layout. Use rounded corners for approved buttons and search fields that match the source component states."
+  },
+  "gradients": {
+    "allowed": false,
+    "disallowed": [
+      "linear gradients",
+      "radial gradients",
+      "mesh gradients",
+      "gradient text",
+      "gradient borders",
+      "gradient chart backgrounds",
+      "gradient hero backgrounds",
+      "gradient overlays"
+    ],
+    "replacement": "Use solid approved brand colors."
+  },
+  "shadows": {
+    "allowed": false,
+    "disallowed": [
+      "box shadows",
+      "drop shadows",
+      "text shadows",
+      "glow effects",
+      "ambient elevation effects"
+    ],
+    "replacement": "Use borders, solid blocks, spacing, and scale."
+  },
+  "borders": {
+    "allowed": true,
+    "default_width_px": 1,
+    "strong_width_px": 2,
+    "default_radius_px": 0,
+    "emphasis_colors": [
+      {
+        "token": "grounded_blue",
+        "hex": "#070154"
+      },
+      {
+        "token": "highlight_magenta",
+        "hex": "#F900D3"
+      }
+    ],
+    "neutral_border_colors": [
+      {
+        "token": "medium_gray",
+        "hex": "#CED7E6"
+      },
+      {
+        "token": "light_gray",
+        "hex": "#E8EEF8"
+      }
+    ]
+  },
+  "graphic_assets": [
+    {
+      "id": "whiteboard_grid",
+      "filename": "wm_whiteboard_grid_100_rgb_240912.svg",
+      "relative_path": "../assets/graphic/wm_whiteboard_grid_100_rgb_240912.svg",
+      "format": "svg",
+      "sha256": "23606a8f62b0c6d117fa2c77a087ae119fca552e5030e04e7bc796a8afda0bfb",
+      "usage": "Supporting graphic element when content benefits from the matrix grid motif.",
+      "rules": [
+        "Keep subtle and secondary to content.",
+        "Do not recolor unless an approved variant is provided.",
+        "Do not use as a full-page decorative texture.",
+        "Do not treat this as a required hero pattern."
+      ]
+    }
+  ],
+  "reference_assets": [],
+  "voice_and_copy_guidance": {
+    "included": false,
+    "reason": "Handled by other tools."
+  },
+  "llm_rules": [
+    "Use IBM Plex Sans for headings and display type.",
+    "Use Arial for body copy and UI copy.",
+    "Do not use gradients.",
+    "Do not use shadows.",
+    "Use square corners by default.",
+    "Use rounded corners only as a rare small-component exception when explicitly specified.",
+    "Use borders, solid blocks, spacing, and scale for hierarchy.",
+    "Do not infer a required hero layout from example imagery."
+  ]
+}

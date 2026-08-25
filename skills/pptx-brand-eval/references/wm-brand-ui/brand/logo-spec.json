@@ -1,0 +1,154 @@
+{
+  "brand": {
+    "name": "West Monroe",
+    "spec_type": "logo",
+    "version": "2026-04-29-logo-only",
+    "status": "partial_v3_input"
+  },
+  "logo_rules": {
+    "default_logo": "horizontal_full_logo",
+    "favicon_logo": "compass_only",
+    "preferred_format": "svg",
+    "fallback_format": "png",
+    "minimum_symbol_height_px": 24,
+    "clear_space": {
+      "ratio_to_logo_height": 0.5,
+      "example": "If logo symbol height is 24px, clear space is 12px on each side."
+    },
+    "background_selection": [
+      {
+        "background_name": "canvas_gray",
+        "background_hex": "#F8F8F8",
+        "logo_variant": "grounded_blue"
+      },
+      {
+        "background_name": "white",
+        "background_hex": "#FFFFFF",
+        "logo_variant": "grounded_blue"
+      },
+      {
+        "background_name": "mist_light_gray",
+        "background_hex": "#E8EEF8",
+        "logo_variant": "grounded_blue"
+      },
+      {
+        "background_name": "medium_gray",
+        "background_hex": "#CED7E6",
+        "logo_variant": "grounded_blue"
+      },
+      {
+        "background_name": "grounded_blue",
+        "background_hex": "#070154",
+        "logo_variant": "white"
+      },
+      {
+        "background_name": "dark_gray",
+        "background_hex": "#50658E",
+        "logo_variant": "white"
+      }
+    ],
+    "do_not": [
+      "Do not recolor the logo.",
+      "Do not stretch the logo.",
+      "Do not crop the logo.",
+      "Do not add shadows or effects.",
+      "Do not place the logo over busy imagery.",
+      "Do not use the compass mark outside favicon contexts.",
+      "Do not recreate the wordmark with live text."
+    ]
+  },
+  "assets": [
+    {
+      "id": "wm_horizontal_grounded_blue_svg",
+      "role": "primary_horizontal_logo",
+      "variant": "grounded_blue",
+      "format": "svg",
+      "relative_path": "../assets/logo/wm_h_pos_clr_rgb_august2024.svg",
+      "view_box": "0 0 344.6 72",
+      "sha256": "1792d6399d80ca979fc609aa50c9cc0dc1b9358132748180df858fb82ad39d86",
+      "usage": "Use on Canvas Gray, White, Mist, and Medium Gray backgrounds."
+    },
+    {
+      "id": "wm_horizontal_grounded_blue_png",
+      "role": "primary_horizontal_logo",
+      "variant": "grounded_blue",
+      "format": "png",
+      "relative_path": "../assets/logo/wm_h_pos_clr_rgb_august2024.png",
+      "dimensions_px": {
+        "width": 1436,
+        "height": 300
+      },
+      "sha256": "47a4eaa1be957777d3e106f5c1cc9f67dbfcda79d74fe7a7f2bcbb88b13fa341",
+      "usage": "PNG fallback for light backgrounds."
+    },
+    {
+      "id": "wm_horizontal_white_svg",
+      "role": "primary_horizontal_logo",
+      "variant": "white",
+      "format": "svg",
+      "relative_path": "../assets/logo/wm_h_rev_wht_rgb_august2024.svg",
+      "view_box": "0 0 344.6 72",
+      "sha256": "78df46c598cfa5dc99a111b77f6d0b71f4b9bcef5beaf4568990517a43d157c9",
+      "usage": "Use on Grounded Blue and approved dark backgrounds."
+    },
+    {
+      "id": "wm_horizontal_white_png",
+      "role": "primary_horizontal_logo",
+      "variant": "white",
+      "format": "png",
+      "relative_path": "../assets/logo/wm_h_rev_wht_rgb_august2024.png",
+      "dimensions_px": {
+        "width": 1436,
+        "height": 300
+      },
+      "sha256": "9b25d243f35352f8468c389fb0b70a238efc5da84fd62e111e25a6f216d3bcc9",
+      "usage": "PNG fallback for dark backgrounds."
+    },
+    {
+      "id": "wm_compass_grounded_blue_svg",
+      "role": "favicon_only",
+      "variant": "grounded_blue",
+      "format": "svg",
+      "relative_path": "../assets/logo/wm_compass_pos_clr_rgb_august2024.svg",
+      "view_box": "0 0 72 72",
+      "sha256": "e2b3bd21bd492fd1bf6ea948abd4b845fa1b6ae54de31d8b2808da8faca302ef",
+      "usage": "Use only as favicon or browser/app icon metadata on light contexts."
+    },
+    {
+      "id": "wm_compass_grounded_blue_png",
+      "role": "favicon_only",
+      "variant": "grounded_blue",
+      "format": "png",
+      "relative_path": "../assets/logo/wm_compass_pos_clr_rgb_august2024.png",
+      "dimensions_px": {
+        "width": 72,
+        "height": 72
+      },
+      "sha256": "866ae44bffa3a26618e8bcee49d64ad8ca2f76c8f7e32e02e484f2f216b7030c",
+      "usage": "PNG favicon fallback for light contexts."
+    },
+    {
+      "id": "wm_compass_white_svg",
+      "role": "favicon_only",
+      "variant": "white",
+      "format": "svg",
+      "relative_path": "../assets/logo/wm_compass_rev_wht_rgb_august2024.svg",
+      "view_box": "0 0 72 72",
+      "sha256": "6a0571b7ae7c697a921d80a46aa1c44a0f4befaaa36d0724f023e4a8a29c2b88",
+      "usage": "Use only as favicon or browser/app icon metadata on dark contexts."
+    },
+    {
+      "id": "wm_compass_white_png",
+      "role": "favicon_only",
+      "variant": "white",
+      "format": "png",
+      "relative_path": "../assets/logo/wm_compass_rev_wht_rgb_august2024.png",
+      "dimensions_px": {
+        "width": 72,
+        "height": 72
+      },
+      "sha256": "5eac620b6e9ebfc4b34aa3b5aec60da8c333318f36eef7a2a0e049a3b1c0f3e5",
+      "usage": "PNG favicon fallback for dark contexts."
+    }
+  ]
+}

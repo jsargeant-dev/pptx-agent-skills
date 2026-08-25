@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPTX Brand Eval"
+  short_description: "Review HTML slides for brand-only issues"
+  default_prompt: "Use $pptx-brand-eval to review this generated HTML slide deck for West Monroe brand issues before PPTX compilation."
+

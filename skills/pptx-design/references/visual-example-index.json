@@ -1,0 +1,388 @@
+{
+  "purpose": "Visual preview index for good-example slide decks. These JPEGs are reference-only design examples for pptx-design; they must not be embedded as generated slides.",
+  "usageRules": [
+    "Use contact sheets to scan deck rhythm and layout variety before selecting slide archetypes.",
+    "Use individual JPEGs to inspect visual hierarchy, density, framing, and composition patterns.",
+    "Do not copy client-confidential content from previews into new decks unless the user supplied it as source content for that request.",
+    "Do not embed preview JPEGs, full-slide screenshots, or data URIs in generated HTML or PPTX output.",
+    "Rebuild selected patterns as editable 16:9 HTML/CSS slides that remain compatible with HTML-to-JSX-to-PPTX compilation."
+  ],
+  "decks": [
+    {
+      "fileName": "AI_Strategy_and_Roadmap_Walking_Deck.pptx",
+      "previewFolder": "example-slide-previews/ai-strategy-and-roadmap-walking-deck",
+      "slideCount": 16,
+      "familyCounts": {
+        "agenda": 1,
+        "approach-process": 13,
+        "cover": 1,
+        "statement-photo": 1
+      },
+      "contactSheets": [
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/contact-sheet-01.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/contact-sheet-02.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-001.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-002.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-003.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-004.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-005.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-006.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-007.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-008.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-009.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-010.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-011.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-012.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-013.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-014.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-015.jpg",
+        "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-016.jpg"
+      ]
+    },
+    {
+      "fileName": "About_West_Monroe_AI-Native_Version.pptx",
+      "previewFolder": "example-slide-previews/about-west-monroe-ai-native-version",
+      "slideCount": 14,
+      "familyCounts": {
+        "agenda": 1,
+        "approach-process": 8,
+        "cover": 1,
+        "dense-detail": 2,
+        "photo-story": 1,
+        "statement-photo": 1
+      },
+      "contactSheets": [
+        "example-slide-previews/about-west-monroe-ai-native-version/contact-sheet-01.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/contact-sheet-02.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-001.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-002.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-003.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-004.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-005.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-006.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-007.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-008.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-009.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-010.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-011.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-012.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-013.jpg",
+        "example-slide-previews/about-west-monroe-ai-native-version/slide-014.jpg"
+      ]
+    },
+    {
+      "fileName": "BorgWarner_SPMS_RFP_Response_West_Monroe_SelectedSlides.pptx",
+      "previewFolder": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides",
+      "slideCount": 26,
+      "familyCounts": {
+        "agenda": 7,
+        "approach-process": 11,
+        "cover": 1,
+        "executive-summary": 5,
+        "photo-story": 1,
+        "proof": 1
+      },
+      "contactSheets": [
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/contact-sheet-01.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/contact-sheet-02.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/contact-sheet-03.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-001.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-002.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-003.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-004.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-005.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-006.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-007.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-008.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-009.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-010.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-011.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-012.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-013.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-014.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-015.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-016.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-017.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-018.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-019.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-020.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-021.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-022.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-023.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-024.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-025.jpg",
+        "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-026.jpg"
+      ]
+    },
+    {
+      "fileName": "IWG_West_Monroe_VAX_Modernization_Executive_Presentation.pptx",
+      "previewFolder": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation",
+      "slideCount": 55,
+      "familyCounts": {
+        "agenda": 7,
+        "approach-process": 10,
+        "content": 19,
+        "cover": 1,
+        "credentials": 2,
+        "executive-summary": 1,
+        "photo-story": 6,
+        "proof": 7,
+        "statement-photo": 2
+      },
+      "contactSheets": [
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/contact-sheet-01.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/contact-sheet-02.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/contact-sheet-03.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/contact-sheet-04.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/contact-sheet-05.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-001.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-002.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-003.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-004.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-005.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-006.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-007.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-008.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-009.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-010.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-011.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-012.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-013.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-014.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-015.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-016.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-017.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-018.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-019.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-020.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-021.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-022.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-023.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-024.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-025.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-026.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-027.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-028.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-029.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-030.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-031.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-032.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-033.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-034.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-035.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-036.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-037.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-038.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-039.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-040.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-041.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-042.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-043.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-044.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-045.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-046.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-047.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-048.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-049.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-050.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-051.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-052.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-053.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-054.jpg",
+        "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-055.jpg"
+      ]
+    },
+    {
+      "fileName": "Jenner-Block_RFP_Response.pptx",
+      "previewFolder": "example-slide-previews/jenner-block-rfp-response",
+      "slideCount": 40,
+      "familyCounts": {
+        "agenda": 12,
+        "approach-process": 11,
+        "cover": 1,
+        "credentials": 1,
+        "dense-detail": 6,
+        "executive-summary": 2,
+        "photo-story": 1,
+        "proof": 6
+      },
+      "contactSheets": [
+        "example-slide-previews/jenner-block-rfp-response/contact-sheet-01.jpg",
+        "example-slide-previews/jenner-block-rfp-response/contact-sheet-02.jpg",
+        "example-slide-previews/jenner-block-rfp-response/contact-sheet-03.jpg",
+        "example-slide-previews/jenner-block-rfp-response/contact-sheet-04.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/jenner-block-rfp-response/slide-001.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-002.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-003.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-004.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-005.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-006.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-007.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-008.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-009.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-010.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-011.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-012.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-013.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-014.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-015.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-016.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-017.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-018.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-019.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-020.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-021.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-022.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-023.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-024.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-025.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-026.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-027.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-028.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-029.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-030.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-031.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-032.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-033.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-034.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-035.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-036.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-037.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-038.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-039.jpg",
+        "example-slide-previews/jenner-block-rfp-response/slide-040.jpg"
+      ]
+    },
+    {
+      "fileName": "Life_Sciences_Practice_Walking_Deck.pptx",
+      "previewFolder": "example-slide-previews/life-sciences-practice-walking-deck",
+      "slideCount": 11,
+      "familyCounts": {
+        "agenda": 1,
+        "cover": 1,
+        "dense-detail": 3,
+        "photo-story": 5,
+        "statement-photo": 1
+      },
+      "contactSheets": [
+        "example-slide-previews/life-sciences-practice-walking-deck/contact-sheet-01.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-001.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-002.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-003.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-004.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-005.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-006.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-007.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-008.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-009.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-010.jpg",
+        "example-slide-previews/life-sciences-practice-walking-deck/slide-011.jpg"
+      ]
+    },
+    {
+      "fileName": "Res_Services_Version_SelectedSLides.pptx",
+      "previewFolder": "example-slide-previews/res-services-version-selectedslides",
+      "slideCount": 14,
+      "familyCounts": {
+        "agenda": 2,
+        "approach-process": 5,
+        "content": 3,
+        "cover": 1,
+        "photo-story": 3
+      },
+      "contactSheets": [
+        "example-slide-previews/res-services-version-selectedslides/contact-sheet-01.jpg",
+        "example-slide-previews/res-services-version-selectedslides/contact-sheet-02.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/res-services-version-selectedslides/slide-001.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-002.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-003.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-004.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-005.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-006.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-007.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-008.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-009.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-010.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-011.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-012.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-013.jpg",
+        "example-slide-previews/res-services-version-selectedslides/slide-014.jpg"
+      ]
+    },
+    {
+      "fileName": "Walmart_Health_and_Wellness_Executive_Leadership.pptx",
+      "previewFolder": "example-slide-previews/walmart-health-and-wellness-executive-leadership",
+      "slideCount": 15,
+      "familyCounts": {
+        "agenda": 1,
+        "approach-process": 6,
+        "cover": 1,
+        "credentials": 1,
+        "photo-story": 6
+      },
+      "contactSheets": [
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/contact-sheet-01.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/contact-sheet-02.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-001.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-002.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-003.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-004.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-005.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-006.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-007.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-008.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-009.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-010.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-011.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-012.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-013.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-014.jpg",
+        "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-015.jpg"
+      ]
+    },
+    {
+      "fileName": "West_Monroe_-_Meeting_the_Moment_on_Customer_Affordability_SelectedSLides.pptx",
+      "previewFolder": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides",
+      "slideCount": 12,
+      "familyCounts": {
+        "agenda": 3,
+        "content": 4,
+        "cover": 1,
+        "photo-story": 4
+      },
+      "contactSheets": [
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/contact-sheet-01.jpg"
+      ],
+      "slides": [
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-001.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-002.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-003.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-004.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-005.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-006.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-007.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-008.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-009.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-010.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-011.jpg",
+        "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-012.jpg"
+      ]
+    }
+  ]
+}

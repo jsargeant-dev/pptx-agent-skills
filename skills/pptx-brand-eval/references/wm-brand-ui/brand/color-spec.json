@@ -1,0 +1,464 @@
+{
+  "brand": {
+    "name": "West Monroe",
+    "spec_type": "color",
+    "version": "2026-04-29-color-only",
+    "status": "partial_v3_input"
+  },
+  "accessibility": {
+    "standard": "WCAG 2.0",
+    "target": "AA",
+    "normal_text_min_contrast": 4.5,
+    "large_text_min_contrast": 3,
+    "large_text_definition": "At least 18pt regular or 14pt bold.",
+    "digital_application_note": "WCAG 2.0 standards apply to digital applications and are the accessibility standard used by the Americans with Disabilities Act.",
+    "highlight_magenta_guidance": {
+      "grounded_blue_pairing": {
+        "contrast_ratio": 5.2,
+        "passes_aa_for": "type_of_any_size",
+        "directions": [
+          "Grounded Blue on Highlight Magenta",
+          "Highlight Magenta on Grounded Blue"
+        ]
+      },
+      "white_pairing": {
+        "contrast_ratio": 3.5,
+        "passes_aa_for": "large_text_only",
+        "large_text_definition": "14pt bold or 18pt regular",
+        "directions": [
+          "Highlight Magenta on White",
+          "White on Highlight Magenta"
+        ]
+      },
+      "brand_preference": "Although Grounded Blue and Highlight Magenta are mathematically more accessible together, West Monroe templates generally prefer the visual interaction between Highlight Magenta and White. Use Highlight Magenta for large, bold text such as subheads and callouts on White, and for strong visual emphasis on Grounded Blue backgrounds."
+    }
+  },
+  "palettes": {
+    "primary": [
+      {
+        "name": "Canvas Gray",
+        "token": "canvas_gray",
+        "hex": "#F8F8F8",
+        "rgb": [
+          248,
+          248,
+          248
+        ],
+        "hierarchy": 1,
+        "roles": [
+          "default_page_background"
+        ]
+      },
+      {
+        "name": "White",
+        "token": "white",
+        "hex": "#FFFFFF",
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "hierarchy": 2,
+        "roles": [
+          "content_surface",
+          "control_surface",
+          "inverse_text"
+        ]
+      },
+      {
+        "name": "Grounded Blue",
+        "token": "grounded_blue",
+        "hex": "#070154",
+        "rgb": [
+          7,
+          1,
+          84
+        ],
+        "hierarchy": 3,
+        "roles": [
+          "headline_text",
+          "body_text",
+          "secondary_background",
+          "primary_structure"
+        ]
+      }
+    ],
+    "accent": [
+      {
+        "name": "Highlight Magenta",
+        "token": "highlight_magenta",
+        "hex": "#F900D3",
+        "rgb": [
+          249,
+          0,
+          211
+        ],
+        "hierarchy": 1,
+        "roles": [
+          "large_subheadline",
+          "large_callout",
+          "ui_hover_state",
+          "illustration"
+        ],
+        "text_allowed": true,
+        "rules": [
+          "Use as text only in approved accessible color combinations."
+        ]
+      },
+      {
+        "name": "Highlight Blue",
+        "token": "highlight_blue",
+        "hex": "#0047FF",
+        "rgb": [
+          0,
+          71,
+          255
+        ],
+        "hierarchy": 2,
+        "roles": [
+          "small_text_emphasis",
+          "body_copy_header",
+          "illustration",
+          "interactive_emphasis"
+        ],
+        "text_allowed": true,
+        "rules": [
+          "Use as text only in approved accessible color combinations."
+        ]
+      }
+    ],
+    "support_neutrals": [
+      {
+        "name": "Dark Gray",
+        "token": "dark_gray",
+        "hex": "#50658E",
+        "rgb": [
+          80,
+          101,
+          142
+        ],
+        "hierarchy": 1,
+        "roles": [
+          "support_background",
+          "secondary_content"
+        ]
+      },
+      {
+        "name": "Medium Gray",
+        "token": "medium_gray",
+        "hex": "#CED7E6",
+        "rgb": [
+          206,
+          215,
+          230
+        ],
+        "hierarchy": 2,
+        "roles": [
+          "support_background",
+          "content_organization"
+        ]
+      },
+      {
+        "name": "Light Gray",
+        "token": "light_gray",
+        "hex": "#E8EEF8",
+        "rgb": [
+          232,
+          238,
+          248
+        ],
+        "hierarchy": 3,
+        "roles": [
+          "support_background",
+          "square_matrix_grid"
+        ]
+      }
+    ]
+  },
+  "text_background_combinations": {
+    "any_size": [
+      {
+        "foreground": "grounded_blue",
+        "background": "canvas_gray",
+        "contrast_ratio": 17.32
+      },
+      {
+        "foreground": "highlight_blue",
+        "background": "canvas_gray",
+        "contrast_ratio": 5.91
+      },
+      {
+        "foreground": "dark_gray",
+        "background": "canvas_gray",
+        "contrast_ratio": 5.5
+      },
+      {
+        "foreground": "grounded_blue",
+        "background": "white",
+        "contrast_ratio": 18.4
+      },
+      {
+        "foreground": "white",
+        "background": "grounded_blue",
+        "contrast_ratio": 18.4
+      },
+      {
+        "foreground": "white",
+        "background": "dark_gray",
+        "contrast_ratio": 5.84
+      },
+      {
+        "foreground": "grounded_blue",
+        "background": "medium_gray",
+        "contrast_ratio": 12.69
+      },
+      {
+        "foreground": "grounded_blue",
+        "background": "light_gray",
+        "contrast_ratio": 15.78
+      },
+      {
+        "foreground": "highlight_blue",
+        "background": "white",
+        "contrast_ratio": 6.28
+      },
+      {
+        "foreground": "white",
+        "background": "highlight_blue",
+        "contrast_ratio": 6.28
+      },
+      {
+        "foreground": "grounded_blue",
+        "background": "highlight_magenta",
+        "contrast_ratio": 5.23
+      },
+      {
+        "foreground": "highlight_magenta",
+        "background": "grounded_blue",
+        "contrast_ratio": 5.23
+      },
+      {
+        "foreground": "highlight_blue",
+        "background": "light_gray",
+        "contrast_ratio": 5.39
+      }
+    ],
+    "large_text_only": [
+      {
+        "foreground": "highlight_magenta",
+        "background": "white",
+        "contrast_ratio": 3.52
+      },
+      {
+        "foreground": "white",
+        "background": "highlight_magenta",
+        "contrast_ratio": 3.52
+      }
+    ]
+  },
+  "data_visualization": {
+    "categorical": {
+      "rule": "Use only for category comparisons, charts, graphs, and color-coded visuals. No other brand colors may be used in categorical data visuals.",
+      "sequence_rule": "Use colors in the order listed. The sequence may start at any color.",
+      "colors": [
+        {
+          "name": "Highlight Magenta",
+          "token": "data_highlight_magenta",
+          "hex": "#F900D3",
+          "rgb": [
+            249,
+            0,
+            211
+          ],
+          "order": 1
+        },
+        {
+          "name": "Light Blue",
+          "token": "data_light_blue",
+          "hex": "#00E8FA",
+          "rgb": [
+            0,
+            232,
+            250
+          ],
+          "order": 2
+        },
+        {
+          "name": "Green",
+          "token": "data_green",
+          "hex": "#1DD566",
+          "rgb": [
+            29,
+            213,
+            102
+          ],
+          "order": 3
+        },
+        {
+          "name": "Gold",
+          "token": "data_gold",
+          "hex": "#FFC700",
+          "rgb": [
+            255,
+            199,
+            0
+          ],
+          "order": 4
+        },
+        {
+          "name": "Purple",
+          "token": "data_purple",
+          "hex": "#B641FF",
+          "rgb": [
+            182,
+            65,
+            255
+          ],
+          "order": 5
+        },
+        {
+          "name": "Light Green",
+          "token": "data_light_green",
+          "hex": "#00FCB0",
+          "rgb": [
+            0,
+            252,
+            176
+          ],
+          "order": 6
+        },
+        {
+          "name": "Orange",
+          "token": "data_orange",
+          "hex": "#FF8A00",
+          "rgb": [
+            255,
+            138,
+            0
+          ],
+          "order": 7
+        },
+        {
+          "name": "Blue",
+          "token": "data_blue",
+          "hex": "#00A3FF",
+          "rgb": [
+            0,
+            163,
+            255
+          ],
+          "order": 8
+        },
+        {
+          "name": "Red",
+          "token": "data_red",
+          "hex": "#F52C00",
+          "rgb": [
+            245,
+            44,
+            0
+          ],
+          "order": 9
+        }
+      ]
+    },
+    "kpi": {
+      "rule": "Use only for positive, median, and negative data metaphors.",
+      "colors": [
+        {
+          "name": "Green",
+          "token": "data_green",
+          "hex": "#1DD566",
+          "rgb": [
+            29,
+            213,
+            102
+          ],
+          "meaning": "positive",
+          "order": 1
+        },
+        {
+          "name": "Gold",
+          "token": "data_gold",
+          "hex": "#FFC700",
+          "rgb": [
+            255,
+            199,
+            0
+          ],
+          "meaning": "median_or_neutral",
+          "order": 2
+        },
+        {
+          "name": "Red",
+          "token": "data_red",
+          "hex": "#F52C00",
+          "rgb": [
+            245,
+            44,
+            0
+          ],
+          "meaning": "negative",
+          "order": 3
+        }
+      ]
+    },
+    "deemphasis": {
+      "rule": "Use to deemphasize data. Any colored parts used with deemphasis must come from the categorical palette and use the categorical sequence.",
+      "tinting_allowed": true,
+      "colors": [
+        {
+          "name": "Light Gray",
+          "token": "light_gray",
+          "hex": "#E8EEF8",
+          "rgb": [
+            232,
+            238,
+            248
+          ],
+          "order": 1
+        },
+        {
+          "name": "Medium Gray",
+          "token": "medium_gray",
+          "hex": "#CED7E6",
+          "rgb": [
+            206,
+            215,
+            230
+          ],
+          "order": 2
+        },
+        {
+          "name": "Gray",
+          "token": "data_gray",
+          "hex": "#8DA3BA",
+          "rgb": [
+            141,
+            163,
+            186
+          ],
+          "order": 3
+        }
+      ]
+    },
+    "accessibility_rules": [
+      "Center-align a 1px black stroke on top of a 4px white stroke.",
+      "Do not separate chart bars or pie chart segments.",
+      "Use data points with descriptive labels and leader lines instead of relying only on legends.",
+      "Leader lines must point directly to the chart element they describe.",
+      "Leader lines must be Grounded Blue.",
+      "Place a solid white background behind leader lines to improve readability.",
+      "Use a 4px white stroke center-aligned below the 1px black or Grounded Blue leader line."
+    ]
+  },
+  "llm_rules": [
+    "Use Canvas Gray #F8F8F8 as the default page background.",
+    "Use White for content surfaces and controls.",
+    "Use Grounded Blue for primary text, structure, controls, and dark sections.",
+    "Use accent colors sparingly.",
+    "Use Highlight Magenta and Highlight Blue for text only in approved accessible combinations.",
+    "Use Highlight Magenta on White only for large, bold display text such as subheads and callouts.",
+    "For data visualization, use only the documented data palettes and preserve sequence order."
+  ]
+}

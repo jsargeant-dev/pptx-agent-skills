@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPTX Intake"
+  short_description: "Normalize source content into a deck brief"
+  default_prompt: "Use $pptx-intake to turn this source content into a structured deck intake package."
+

@@ -1,0 +1,631 @@
+{
+  "template": "assets/template/index.html",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "ratio": "16:9"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "node": "1:2",
+      "archetype": "hero",
+      "best_for": "Open the deck with a bold thesis and one strong visual.",
+      "fit": {
+        "headline_chars": 80,
+        "body_chars": 180
+      },
+      "slots": {
+        "headline": "Lead the Future by Unlocking / the Full Potential of AI",
+        "images": [
+          "assets/raw/slide-01-raw-01.jpeg",
+          "assets/raw/slide-01-raw-02.jpeg"
+        ],
+        "icons": []
+      },
+      "class_signals": [
+        "abs",
+        "abs bold",
+        "arrow",
+        "grid",
+        "logo-img",
+        "page-number",
+        "photo"
+      ],
+      "duplicate_allowed": false
+    },
+    {
+      "slide": 2,
+      "node": "1:3",
+      "archetype": "section-divider",
+      "best_for": "Create a visual pause between major story chapters.",
+      "fit": {
+        "headline_chars": 70
+      },
+      "slots": {
+        "images": [
+          "assets/brand/handdrawn/underscore-highlight.svg"
+        ],
+        "icons": [
+          "magenta"
+        ]
+      },
+      "class_signals": [
+        "abs",
+        "abs bold magenta",
+        "abs bold white",
+        "logo-img",
+        "page-number light"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 3,
+      "node": "1:5",
+      "archetype": "problem-statement",
+      "best_for": "Frame the primary challenge and supporting tensions.",
+      "fit": {
+        "headline_chars": 120,
+        "callouts": 4
+      },
+      "slots": {
+        "headline": "The longest, riskiest step is / understanding what to modernize, / how to do it, and in what order.",
+        "images": [
+          "assets/raw/slide-03-raw-01.jpeg"
+        ],
+        "icons": [
+          "experience",
+          "strategy",
+          "success",
+          "tech"
+        ]
+      },
+      "class_signals": [
+        "abs",
+        "abs bold",
+        "abs small-kicker",
+        "abs white",
+        "arrow",
+        "grid",
+        "highlight",
+        "icon experience",
+        "icon strategy",
+        "icon success",
+        "icon tech",
+        "logo-img",
+        "page-number",
+        "photo"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 4,
+      "node": "1:9",
+      "archetype": "transformation-positioning",
+      "best_for": "Reframe the challenge as a business transformation.",
+      "fit": {
+        "headline_chars": 165,
+        "callouts": 4
+      },
+      "slots": {
+        "headline": "You don\u2019t need another re-platforming / vendor. You need a partner that understands / this effort is more than an IT renovation. / It\u2019s a business transformation.",
+        "images": [
+          "assets/raw/slide-05-raw-01.jpeg",
+          "assets/brand/handdrawn/underscore-highlight.svg"
+        ],
+        "icons": [
+          "experience",
+          "magenta",
+          "strategy",
+          "success",
+          "tech"
+        ]
+      },
+      "class_signals": [
+        "abs",
+        "abs bold",
+        "abs small-kicker",
+        "abs white",
+        "grid",
+        "highlight",
+        "icon experience",
+        "icon strategy",
+        "icon success",
+        "icon tech",
+        "logo-img",
+        "magenta",
+        "page-number",
+        "photo"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 5,
+      "node": "1:11",
+      "archetype": "approach-card-grid",
+      "best_for": "Present a four-part approach or operating model.",
+      "fit": {
+        "headline_chars": 150,
+        "cards": 4,
+        "card_title_chars": 34,
+        "card_body_chars": 190
+      },
+      "slots": {
+        "headline": "That\u2019s where West Monroe comes in. We offer an AI-powered modernization / model that compresses timelines, reduces risk, and increases value.",
+        "bullets": [
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development"
+        ],
+        "card_titles": [
+          "Value-First, Not Tech-First",
+          "Value-First, Not Tech-First",
+          "Value-First, Not Tech-First",
+          "Value-First, Not Tech-First"
+        ],
+        "images": [],
+        "icons": [
+          "experience",
+          "strategy",
+          "success",
+          "tech"
+        ]
+      },
+      "class_signals": [
+        "abs bold",
+        "abs small-kicker",
+        "arrow",
+        "card",
+        "card-copy",
+        "grid",
+        "icon experience",
+        "icon strategy",
+        "icon success",
+        "icon tech",
+        "logo-img",
+        "page-number",
+        "why"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 6,
+      "node": "61:2",
+      "archetype": "statement-photo",
+      "best_for": "Make one memorable point with a supporting image.",
+      "fit": {
+        "headline_chars": 135,
+        "body_chars": 220
+      },
+      "slots": {
+        "headline": "The longest, riskiest step is understanding what to modernize, how to do it, and in what order.",
+        "images": [
+          "assets/raw/slide-07-raw-01.jpeg"
+        ],
+        "icons": [
+          "magenta"
+        ]
+      },
+      "class_signals": [
+        "abs bold",
+        "abs bold magenta",
+        "grid",
+        "logo-img",
+        "page-number",
+        "photo"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 7,
+      "node": "61:192",
+      "archetype": "bullet-list",
+      "best_for": "Hold supporting details, proof points, or recommendations.",
+      "fit": {
+        "headline_chars": 120,
+        "bullets": 6,
+        "bullet_chars": 120
+      },
+      "slots": {
+        "bullets": [
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development"
+        ],
+        "images": [],
+        "icons": [
+          "magenta"
+        ]
+      },
+      "class_signals": [
+        "abs",
+        "abs bold magenta",
+        "bullets abs",
+        "footer",
+        "footer-copy",
+        "grid",
+        "logo-img",
+        "page-number"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 8,
+      "node": "61:423",
+      "archetype": "keyword-card-grid",
+      "best_for": "Compare three themes, pillars, or capabilities.",
+      "fit": {
+        "headline_chars": 150,
+        "cards": 3,
+        "card_title_chars": 34,
+        "bullet_chars": 80
+      },
+      "slots": {
+        "headline": "That\u2019s where West Monroe comes in. We offer an AI-powered modernization / model that compresses timelines, reduces risk, and increases value.",
+        "bullets": [
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain loop, not a one-time program.",
+          "We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development"
+        ],
+        "images": [],
+        "icons": [
+          "experience",
+          "success"
+        ]
+      },
+      "class_signals": [
+        "abs bold",
+        "footer",
+        "footer-copy",
+        "grid",
+        "head",
+        "icon experience white-icon",
+        "icon success white-icon",
+        "keyword-card",
+        "logo-img",
+        "page-number"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 9,
+      "node": "61:436",
+      "archetype": "timeline",
+      "best_for": "Show four phases, steps, or waves in sequence.",
+      "fit": {
+        "headline_chars": 150,
+        "cards": 4,
+        "card_title_chars": 24,
+        "bullet_chars": 115
+      },
+      "slots": {
+        "headline": "That\u2019s where West Monroe comes in. We offer an AI-powered modernization / model that compresses timelines, reduces risk, and increases value.",
+        "bullets": [
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain",
+          "We prioritize business value, not just technical elegance.",
+          "All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.",
+          "Our model is built around a Rationalize \u2192 Modernize \u2192 Sustain"
+        ],
+        "card_titles": [
+          "Subtitle",
+          "Subtitle",
+          "Subtitle",
+          "Subtitle"
+        ],
+        "images": [],
+        "icons": [
+          "success"
+        ]
+      },
+      "class_signals": [
+        "abs bold",
+        "abs bold white",
+        "footer",
+        "footer-copy",
+        "grid",
+        "icon blue-success",
+        "logo-img",
+        "page-number",
+        "timeline-arrow",
+        "timeline-bg",
+        "timeline-card"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 10,
+      "node": "62:524",
+      "archetype": "differentiator-grid",
+      "best_for": "Show two rows of three differentiators, findings, or proof points.",
+      "fit": {
+        "headline_chars": 150,
+        "cards": 6,
+        "card_title_chars": 42
+      },
+      "slots": {
+        "headline": "That\u2019s where West Monroe comes in. We offer an AI-powered modernization / model that compresses timelines, reduces risk, and increases value.",
+        "card_titles": [
+          "Responsive / and Flexible",
+          "Responsive / and Flexible",
+          "Responsive / and Flexible",
+          "Responsive / and Flexible",
+          "Responsive / and Flexible",
+          "Responsive / and Flexible"
+        ],
+        "images": [],
+        "icons": [
+          "success"
+        ]
+      },
+      "class_signals": [
+        "abs bold",
+        "diff-band",
+        "diff-card bright",
+        "diff-card navy",
+        "diff-label",
+        "footer",
+        "footer-copy",
+        "grid",
+        "icon success white-icon",
+        "logo-img",
+        "page-number"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 11,
+      "node": "ref:agenda",
+      "archetype": "agenda",
+      "best_for": "Set up a meeting, proposal, or walking-deck flow with numbered sections.",
+      "fit": {
+        "headline_chars": 70,
+        "agenda_items": 4,
+        "agenda_item_chars": 42
+      },
+      "slots": {
+        "headline": "Today\u2019s conversation",
+        "images": [
+          "assets/raw/slide-01-raw-01.jpeg",
+          "assets/brand/handdrawn/underscore-highlight.svg"
+        ],
+        "icons": []
+      },
+      "class_signals": [
+        "abs",
+        "abs bold",
+        "abs small-kicker",
+        "agenda-list",
+        "footer",
+        "footer-copy",
+        "grid",
+        "logo-img",
+        "page-number",
+        "photo"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 12,
+      "node": "ref:executive-summary",
+      "archetype": "executive-summary",
+      "best_for": "Summarize situation, implication, recommendation, and decision needed.",
+      "fit": {
+        "headline_chars": 115,
+        "cards": 3,
+        "card_title_chars": 24,
+        "card_body_chars": 95,
+        "decision_chars": 115
+      },
+      "slots": {
+        "headline": "A concise readout for leaders who need the answer first.",
+        "card_titles": [
+          "Situation",
+          "Implication",
+          "Recommendation"
+        ],
+        "images": [],
+        "icons": []
+      },
+      "class_signals": [
+        "abs",
+        "abs bold",
+        "abs small-kicker",
+        "footer",
+        "footer-copy",
+        "grid",
+        "logo-img",
+        "page-number",
+        "summary-band",
+        "summary-card"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 13,
+      "node": "ref:metric-proof",
+      "archetype": "metric-proof",
+      "best_for": "Make a small set of metrics or proof points visually dominant.",
+      "fit": {
+        "headline_chars": 110,
+        "metrics": 4,
+        "metric_value_chars": 8,
+        "metric_label_chars": 70
+      },
+      "slots": {
+        "headline": "Use the numbers to make urgency tangible.",
+        "images": [
+          "assets/brand/handdrawn/spark-accent.svg"
+        ],
+        "icons": []
+      },
+      "class_signals": [
+        "abs",
+        "abs bold",
+        "abs small-kicker",
+        "footer",
+        "footer-copy",
+        "logo-img",
+        "metric-card",
+        "page-number"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 14,
+      "node": "ref:two-column-detail",
+      "archetype": "two-column-detail",
+      "best_for": "Compare current and future state, options, or two workstreams.",
+      "fit": {
+        "headline_chars": 120,
+        "columns": 2,
+        "column_title_chars": 28,
+        "bullet_chars": 55
+      },
+      "slots": {
+        "headline": "Compare what is happening today with what needs to change.",
+        "bullets": [
+          "Undocumented platforms",
+          "Hidden dependencies",
+          "Manual analysis cycles",
+          "Conservative sequencing",
+          "Evidence-based understanding",
+          "Value-led prioritization",
+          "AI-assisted delivery",
+          "Iterative modernization"
+        ],
+        "card_titles": [
+          "Current state",
+          "Future state"
+        ],
+        "images": [],
+        "icons": []
+      },
+      "class_signals": [
+        "abs bold",
+        "abs small-kicker",
+        "detail-column",
+        "detail-column bright",
+        "footer",
+        "footer-copy",
+        "grid",
+        "logo-img",
+        "page-number"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 15,
+      "node": "ref:case-study",
+      "archetype": "case-study",
+      "best_for": "Show a client proof story with image, bullets, and result.",
+      "fit": {
+        "headline_chars": 105,
+        "bullets": 4,
+        "bullet_chars": 55,
+        "result_chars": 115
+      },
+      "slots": {
+        "headline": "Modernization that moves from insight to execution.",
+        "bullets": [
+          "Rapid system inventory",
+          "Prioritized roadmap",
+          "AI-assisted delivery",
+          "Client ownership transition"
+        ],
+        "images": [
+          "assets/raw/slide-07-raw-01.jpeg"
+        ],
+        "icons": []
+      },
+      "class_signals": [
+        "abs",
+        "abs bold",
+        "abs bold white",
+        "abs small-kicker",
+        "bullets abs",
+        "case-result",
+        "logo-img",
+        "page-number light",
+        "photo"
+      ],
+      "duplicate_allowed": true
+    },
+    {
+      "slide": 16,
+      "node": "ref:credentials",
+      "archetype": "credentials",
+      "best_for": "Present West Monroe experience, capabilities, proof, or team strengths.",
+      "fit": {
+        "headline_chars": 120,
+        "cards": 4,
+        "card_title_chars": 24,
+        "card_body_chars": 90
+      },
+      "slots": {
+        "headline": "Bring the right mix of industry, technology, and delivery experience.",
+        "card_titles": [
+          "Industry depth",
+          "Business strategy",
+          "Technical execution",
+          "Proven delivery"
+        ],
+        "images": [],
+        "icons": [
+          "experience",
+          "strategy",
+          "success",
+          "tech"
+        ]
+      },
+      "class_signals": [
+        "abs bold",
+        "abs small-kicker",
+        "credential-card",
+        "footer",
+        "footer-copy",
+        "icon experience",
+        "icon strategy",
+        "icon success",
+        "icon tech",
+        "logo-img",
+        "page-number"
+      ],
+      "duplicate_allowed": true
+    }
+  ]
+}

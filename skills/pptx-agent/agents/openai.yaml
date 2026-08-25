@@ -1,0 +1,8 @@
+interface:
+  display_name: "PPTX Agent"
+  short_description: "Orchestrate intake, HTML design, and editable PPTX"
+  default_prompt: "Use $pptx-agent to create a PPTX through intake, HTML design review, and editable PowerPoint compilation."
+
+policy:
+  allow_implicit_invocation: true
+

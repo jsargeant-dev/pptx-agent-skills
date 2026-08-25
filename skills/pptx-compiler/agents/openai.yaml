@@ -1,0 +1,8 @@
+interface:
+  display_name: "PPTX Compiler"
+  short_description: "Compile approved HTML into editable PPTX"
+  default_prompt: "Use $pptx-compiler to convert this approved 16:9 HTML deck into an editable object-level PPTX."
+
+policy:
+  allow_implicit_invocation: true
+

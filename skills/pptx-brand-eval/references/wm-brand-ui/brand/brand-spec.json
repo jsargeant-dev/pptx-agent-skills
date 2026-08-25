@@ -1,0 +1,90 @@
+{
+  "brand": {
+    "name": "West Monroe",
+    "spec_type": "ux_ui_guidelines",
+    "version": "2026-04-29-packaged",
+    "intended_use": "Canonical reference for humans and LLMs creating West Monroe-branded digital demos and UX/UI assets"
+  },
+  "canonical_files": {
+    "tokens_json": "./tokens.json",
+    "tokens_css": "./tokens.css",
+    "llm_instructions": "./llm-instructions.md",
+    "logo_spec": "./logo-spec.json",
+    "color_spec": "./color-spec.json",
+    "typography_spec": "./typography-spec.json",
+    "surface_composition_spec": "./surface-composition-spec.json",
+    "validation_checklist": "./validation-checklist.md",
+    "asset_manifest": "../assets/asset-manifest.json",
+    "component_spec": "./component-spec.json",
+    "ibm_plex_sans_google_font": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+  },
+  "rules": {
+    "heading_font_family": "IBM Plex Sans",
+    "body_font_family": "Arial",
+    "gradients_allowed": false,
+    "shadows_allowed": false,
+    "default_corner_radius_px": 0,
+    "corner_radius_exception": "Layout surfaces are square by default. Approved buttons and search fields may use the rounded 80px component treatment.",
+    "voice_and_copy_guidance_included": false,
+    "heading_font_source": "Load IBM Plex Sans from Google Fonts or an approved self-hosted equivalent.",
+    "body_font_fallback": "Use Helvetica followed by sans-serif only when Arial is unavailable."
+  },
+  "dominant_palette": [
+    "#F8F8F8",
+    "#070154",
+    "#FFFFFF"
+  ],
+  "accent_palette": [
+    "#F900D3",
+    "#0047FF"
+  ],
+  "support_neutrals": [
+    "#50658E",
+    "#CED7E6",
+    "#E8EEF8"
+  ],
+  "data_visualization": {
+    "categorical": [
+      "#F900D3",
+      "#00E8FA",
+      "#1DD566",
+      "#FFC700",
+      "#B641FF",
+      "#00FCB0",
+      "#FF8A00",
+      "#00A3FF",
+      "#F52C00"
+    ],
+    "kpi": {
+      "positive": "#1DD566",
+      "median": "#FFC700",
+      "negative": "#F52C00"
+    },
+    "deemphasis": [
+      "#E8EEF8",
+      "#CED7E6",
+      "#8DA3BA"
+    ]
+  },
+  "logo": {
+    "default": "../assets/logo/wm_h_pos_clr_rgb_august2024.svg",
+    "reverse": "../assets/logo/wm_h_rev_wht_rgb_august2024.svg",
+    "favicon": "../assets/logo/wm_compass_pos_clr_rgb_august2024.svg",
+    "rule": "Use the full horizontal logo for all brand placements. Use the compass only as a favicon."
+  },
+  "llm_summary": [
+    "Use IBM Plex Sans for headings, headlines, display type, and eyebrow text.",
+    "Use Arial for body copy, navigation, labels, controls, and captions.",
+    "Load IBM Plex Sans from the documented Google Fonts URL or an approved self-hosted equivalent.",
+    "Use Canvas Gray #F8F8F8 as the default page background.",
+    "Use White for content surfaces and Grounded Blue for text, structure, controls, and dark sections.",
+    "Use accent colors sparingly.",
+    "Use no gradients.",
+    "Use no shadows.",
+    "Use square corners for layout surfaces.",
+    "Approved buttons and search fields may use rounded component corners.",
+    "Use borders, solid blocks, spacing, and scale for hierarchy.",
+    "Use approved logos and assets only.",
+    "Follow WCAG 2.0 AA accessible text/background combinations."
+  ]
+}

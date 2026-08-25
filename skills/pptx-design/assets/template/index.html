@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PowerPoints Slides Canvas</title>
+  <style>
+    :root {
+      --blue: #070154;
+      --bright-blue: #0147ff;
+      --highlight-blue: #0047ff;
+      --magenta: #f900d3;
+      --light: #e8eef8;
+      --footer: #e7eef8;
+      --grey: #50658e;
+      --bg: #eef0f5;
+    }
+
+    * { box-sizing: border-box; }
+    html { background: var(--bg); }
+    body {
+      margin: 0;
+      min-width: 1280px;
+      background: var(--bg);
+      color: var(--blue);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main {
+      width: 1280px;
+      margin: 0 auto;
+      padding: 32px 0;
+    }
+
+    .slide {
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      margin: 0 0 32px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 18px 45px rgba(7, 1, 84, 0.16);
+    }
+
+    .slide:last-child { margin-bottom: 0; }
+    .slide p { margin: 0; }
+    .abs { position: absolute; }
+    .bold { font-weight: 700; }
+    .blue { color: var(--blue); }
+    .magenta { color: var(--magenta); }
+    .highlight { color: var(--highlight-blue); }
+    .white { color: #fff; }
+    .grey { color: var(--grey); }
+    .small-kicker { font-size: 14px; font-weight: 700; letter-spacing: -0.14px; color: var(--grey); }
+    .grid {
+      position: absolute;
+      background: url("assets/brand/handdrawn/whiteboard-grid.svg") center / cover no-repeat;
+    }
+
+    .logo-img {
+      position: absolute;
+      display: block;
+      object-fit: contain;
+    }
+
+    .photo {
+      position: absolute;
+      object-fit: cover;
+      display: block;
+    }
+
+    .arrow {
+      position: absolute;
+      background: url("assets/brand/handdrawn/right-angle-arrow.svg") center / contain no-repeat;
+    }
+
+    .icon {
+      position: absolute;
+      background: transparent;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .icon.strategy { background-image: url("assets/brand/icons/magenta/strategy.svg"); }
+    .icon.success { background-image: url("assets/brand/icons/magenta/success.svg"); }
+    .icon.tech { background-image: url("assets/brand/icons/magenta/technology.svg"); }
+    .icon.experience { background-image: url("assets/brand/icons/magenta/tech-and-experience.svg"); }
+    .icon.blue-success { background-image: url("assets/brand/icons/blue/success.svg"); }
+    .icon.white-icon { filter: brightness(0) invert(1); }
+
+    .footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 1280px;
+      height: 75px;
+      background: var(--footer);
+    }
+
+    .footer-copy {
+      position: absolute;
+      left: 539px;
+      top: 675px;
+      width: 670px;
+      font-size: 12.5px;
+      letter-spacing: -0.125px;
+    }
+
+    .page-number {
+      position: absolute;
+      right: 46px;
+      bottom: 20px;
+      z-index: 5;
+      color: var(--blue);
+      font-size: 12.5px;
+      line-height: 1;
+      letter-spacing: -0.125px;
+    }
+
+    .page-number.light {
+      color: #fff;
+    }
+
+    .bullets {
+      margin: 0;
+      padding-left: 1.45em;
+      line-height: 1.05;
+    }
+
+    .bullets li { margin: 0; }
+    .slide-img-fallback {
+      width: 1280px;
+      height: 720px;
+      object-fit: cover;
+      display: block;
+    }
+
+    @media print {
+      html, body { min-width: 0; background: #fff; }
+      main { width: 100%; padding: 0; }
+      .slide {
+        width: 100vw;
+        height: 56.25vw;
+        margin: 0;
+        box-shadow: none;
+        page-break-after: always;
+        transform-origin: top left;
+      }
+    }
+  </style>
+</head>
+<body>
+<main aria-label="Editable PowerPoints slide canvas">
+  <section class="slide" data-node="1:2">
+    <div class="grid" style="left:631px;top:36px;width:526px;height:526px"></div>
+    <img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:47px;top:37px;width:253px;height:53px">
+    <img class="photo" src="assets/raw/slide-01-raw-01.jpeg" alt="" style="left:723px;top:125px;width:557px;height:557px;object-position:center">
+    <img class="photo" src="assets/raw/slide-01-raw-02.jpeg" alt="" style="left:596px;top:251px;width:223px;height:223px;object-position:center">
+    <div class="arrow" style="left:622px;top:154px;width:145px;height:145px"></div>
+    <p class="abs bold" style="left:47px;top:306px;width:542px;font-size:38px;line-height:1.12;letter-spacing:-.38px">Lead the Future by Unlocking<br>the Full Potential of AI</p>
+    <p class="abs" style="left:47px;top:437px;width:517px;font-size:20px;line-height:1.15;letter-spacing:-.6px">AI is no longer a futuristic concept. It’s a present-day<br>imperative for keeping pace and driving innovation.</p>
+    <p class="abs" style="left:47px;top:509px;width:517px;font-size:20px;line-height:1.15;letter-spacing:-.6px">Are you ready to take the lead?</p>
+    <span class="page-number">1</span>
+  </section>
+
+  <section class="slide" data-node="1:3" style="background:var(--blue)">
+    <p class="abs bold white" style="left:51px;top:164px;width:782px;font-size:96px;line-height:.9;letter-spacing:-.96px">01</p>
+    <img class="abs" src="assets/brand/handdrawn/underscore-highlight.svg" alt="" style="left:38px;top:261px;width:123px;height:19px;filter:brightness(0) invert(1);transform:rotate(-2deg)">
+    <p class="abs bold white" style="left:51px;top:360px;width:782px;font-size:45px;line-height:1.15;letter-spacing:-.45px">AI is the essential foundation for the<br>future of work</p>
+    <p class="abs bold magenta" style="left:51px;top:509px;width:497px;font-size:24px;line-height:1.08;letter-spacing:-.72px">Delivering transformation, compounded<br>growth, and human focus at incredible speed<br>and scale.</p>
+    <img class="logo-img" src="assets/brand/logos/wm-white.svg" alt="west monroe" style="left:48px;top:664px;width:157px;height:33px">
+    <span class="page-number light">2</span>
+  </section>
+
+  <section class="slide" data-node="1:5">
+    <div class="grid" style="left:47px;top:25px;width:526px;height:526px"></div>
+    <p class="abs small-kicker" style="left:52px;top:40px">SOFTWARE MODERNIZATION</p>
+    <p class="abs bold" style="left:51px;top:66px;width:542px;font-size:32px;line-height:1.06;letter-spacing:-.32px">The longest, riskiest step is<br>understanding what to modernize,<br>how to do it, and in what order.</p>
+    <p class="abs" style="left:47px;top:206px;width:527px;font-size:22px;line-height:1.08;letter-spacing:-.22px">Organizations who don’t have the bandwidth or AI<br>expertise often spend months analyzing the current<br>state and then make conservative, suboptimal<br>decisions to avoid risk.<strong class="highlight">The result is a slow,<br>expensive program with limited business impact.</strong></p>
+    <img class="photo" src="assets/raw/slide-03-raw-01.jpeg" alt="" style="left:49px;top:414px;width:200px;height:200px;object-position:center">
+    <img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:49px;top:665px;width:150px;height:31px">
+    <div class="abs" style="left:678px;top:67px;width:602px;height:393px;background:var(--light)"></div>
+    <p class="abs bold" style="left:721px;top:105px;width:505px;font-size:16px;letter-spacing:-.16px">MOST COMMON COMPLICATING FACTORS</p>
+    <div class="icon experience" style="left:717px;top:152px;width:48px;height:48px"></div>
+    <div class="icon strategy" style="left:717px;top:226px;width:48px;height:48px"></div>
+    <div class="icon success" style="left:717px;top:300px;width:48px;height:48px"></div>
+    <div class="icon tech" style="left:717px;top:374px;width:48px;height:48px"></div>
+    <p class="abs bold" style="left:783px;top:167px;width:443px;font-size:18px">Massive, undocumented codebases</p>
+    <p class="abs bold" style="left:783px;top:226px;width:443px;font-size:18px;line-height:1.08">Lack of institutional knowledge or understanding<br>of legacy systems</p>
+    <p class="abs" style="left:783px;top:315px;width:443px;font-size:18px">Hidden dependencies and risks</p>
+    <p class="abs" style="left:783px;top:376px;width:443px;font-size:18px;line-height:1.1">Misalignment between those setting business priorities<br>and those making technical decisions</p>
+    <div class="arrow" style="left:711px;top:430px;width:97px;height:97px"></div>
+    <div class="abs" style="left:784px;top:473px;width:496px;height:155px;background:var(--blue)"></div>
+    <p class="abs white" style="left:808px;top:516px;width:446px;font-size:18px;line-height:1.12">That’s why you need <strong>the right partner</strong>—one that can help you compress and improve understanding to unlock speed, confidence, and better decision-making across the modernization lifecycle.</p>
+    <span class="page-number">3</span>
+  </section>
+
+  <section class="slide" data-node="1:9">
+    <div class="abs" style="left:407px;top:0;width:873px;height:720px;background:var(--light)"></div>
+    <div class="grid" style="left:46px;top:51px;width:343px;height:342px"></div>
+    <p class="abs small-kicker" style="left:50px;top:33px">SOFTWARE MODERNIZATION</p>
+    <img class="photo" src="assets/raw/slide-05-raw-01.jpeg" alt="" style="left:92px;top:93px;width:393px;height:393px;object-position:center">
+    <img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px">
+    <p class="abs bold" style="left:551px;top:89px;width:683px;font-size:32px;line-height:1.06;letter-spacing:-.32px">You don’t need another re-platforming<br>vendor. You need a partner that understands<br>this effort is more than an IT renovation.<br>It’s a <span class="highlight">business transformation.</span></p>
+    <img class="abs" src="assets/brand/handdrawn/underscore-highlight.svg" alt="" style="left:506px;top:171px;width:310px;height:30px;transform:rotate(-1deg)">
+    <p class="abs" style="left:549px;top:290px;width:360px;font-size:20px">The right partner for you will be able to:</p>
+    <div class="icon strategy" style="left:549px;top:404px;width:48px;height:48px"></div>
+    <div class="icon success" style="left:935px;top:330px;width:48px;height:48px"></div>
+    <div class="icon experience" style="left:549px;top:330px;width:48px;height:48px"></div>
+    <div class="icon tech" style="left:935px;top:404px;width:48px;height:48px"></div>
+    <p class="abs" style="left:612px;top:330px;width:305px;font-size:20px;line-height:1.12">Help you understand your current state quickly and accurately</p>
+    <p class="abs" style="left:998px;top:330px;width:256px;font-size:20px;line-height:1.12">Help you understand your current state quickly</p>
+    <p class="abs" style="left:613px;top:404px;width:305px;font-size:20px;line-height:1.12">Help you understand your current state quickly and accurately</p>
+    <p class="abs" style="left:999px;top:404px;width:256px;font-size:20px;line-height:1.12">Help you understand your current state quickly</p>
+    <div class="abs" style="left:549px;top:517px;width:731px;height:93px;background:var(--blue)"></div>
+    <p class="abs white" style="left:577px;top:538px;width:676px;font-size:20px;line-height:1.16">And critically, the right partner will leverage <strong class="magenta">an adaptable approach</strong>, not a one-size-fits-all methodology.</p>
+    <span class="page-number">4</span>
+  </section>
+
+  <section class="slide" data-node="1:11">
+    <div class="grid" style="left:14px;top:15px;width:250px;height:250px"></div>
+    <p class="abs small-kicker" style="left:40px;top:29px">SOFTWARE MODERNIZATION</p>
+    <p class="abs bold" style="left:39px;top:58px;width:1180px;font-size:28px;line-height:1.06;letter-spacing:-.28px">That’s where West Monroe comes in. We offer an AI-powered modernization<br>model that compresses timelines, reduces risk, and increases value.</p>
+    <img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px">
+    <div class="card" style="left:49px"><div class="icon experience"></div></div>
+    <div class="card" style="left:351px"><div class="icon strategy"></div></div>
+    <div class="card" style="left:653px"><div class="icon tech"></div></div>
+    <div class="card" style="left:956px"><div class="icon success"></div></div>
+    <div class="card-copy" style="left:56px"><h3>Value-First, Not Tech-First</h3><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul></div>
+    <div class="card-copy" style="left:358px"><h3>Value-First, Not Tech-First</h3><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul></div>
+    <div class="card-copy" style="left:660px"><h3>Value-First, Not Tech-First</h3><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul></div>
+    <div class="card-copy" style="left:963px"><h3>Value-First, Not Tech-First</h3><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul></div>
+    <div class="why" style="left:128px"><div class="arrow"></div><strong>WHY THIS MATTERS</strong><p>Most firms force a predefined approach. We engineer the approach around your portfolio and business goals—keeping what works and modernizing what drives value.</p></div>
+    <div class="why" style="left:416px"><div class="arrow"></div><strong>WHY THIS MATTERS</strong><p>Most firms force a predefined approach. We engineer the approach around your portfolio and business goals—keeping what works and modernizing what drives value.</p></div>
+    <div class="why" style="left:718px"><div class="arrow"></div><strong>WHY THIS MATTERS</strong><p>Most firms force a predefined approach. We engineer the approach around your portfolio and business goals—keeping what works and modernizing what drives value.</p></div>
+    <div class="why" style="left:1021px"><div class="arrow"></div><strong>WHY THIS MATTERS</strong><p>Most firms force a predefined approach. We engineer the approach around your portfolio and business goals—keeping what works and modernizing what drives value.</p></div>
+    <span class="page-number">5</span>
+  </section>
+
+  <section class="slide" data-node="61:2">
+    <img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:39px;top:31px;width:253px;height:53px">
+    <div class="grid" style="left:640px;top:38px;width:528px;height:528px"></div>
+    <p class="abs bold" style="left:49px;top:234px;width:495px;font-size:32px;line-height:1.08;letter-spacing:-.32px">The longest, riskiest step is understanding what to modernize, how to do it, and in what order.</p>
+    <p class="abs bold magenta" style="left:54px;top:436px;width:485px;font-size:22px;line-height:1.12;letter-spacing:-.22px">The result is a slow, expensive program with limited business impact. Organizations who don’t have the bandwidth or AI expertise often spend months analyzing the current state and then make conservative, suboptimal decisions to avoid risk.</p>
+    <img class="photo" src="assets/raw/slide-07-raw-01.jpeg" alt="" style="left:691px;top:88px;width:608px;height:608px;object-position:center">
+    <span class="page-number">6</span>
+  </section>
+
+  <section class="slide" data-node="61:192">
+    <div class="grid" style="left:14px;top:14px;width:250px;height:250px"></div>
+    <p class="abs bold magenta" style="left:393px;top:54px;width:495px;text-align:center;font-size:20px">OUR UNDERSTANDING</p>
+    <p class="abs" style="left:185px;top:87px;width:865px;text-align:center;font-size:20px;line-height:1.13">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui diam, luctus sit amet luctus sed, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui diam, luctus sit amet luctus sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui diam, luctus sit amet</p>
+    <div class="abs" style="left:50px;top:212px;width:576px;height:386px;background:var(--light)"></div>
+    <div class="abs" style="left:654px;top:212px;width:576px;height:386px;background:var(--light)"></div>
+    <ul class="bullets abs" style="left:79px;top:246px;width:511px;font-size:18px"><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul>
+    <ul class="bullets abs" style="left:686px;top:246px;width:511px;font-size:18px"><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul>
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">7</span>
+  </section>
+
+  <section class="slide" data-node="61:423">
+    <div class="grid" style="left:14px;top:14px;width:250px;height:250px"></div>
+    <p class="abs bold" style="left:39px;top:54px;width:1120px;font-size:28px;line-height:1.06">That’s where West Monroe comes in. We offer an AI-powered modernization<br>model that compresses timelines, reduces risk, and increases value.</p>
+    <div class="keyword-card" style="left:48px"><div class="head"><span class="icon experience white-icon"></span><strong>Keywords</strong></div><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul></div>
+    <div class="keyword-card" style="left:450px"><div class="head"><span class="icon success white-icon"></span><strong>Keywords</strong></div><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul></div>
+    <div class="keyword-card" style="left:852px"><div class="head"><span class="icon success white-icon"></span><strong>Keywords</strong></div><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain loop, not a one-time program.</li><li>We embed technical debt reduction into ongoing delivery, ensuring modernization continues alongside feature development</li></ul></div>
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">8</span>
+  </section>
+
+  <section class="slide" data-node="61:436">
+    <div class="grid" style="left:14px;top:14px;width:250px;height:250px"></div>
+    <p class="abs bold" style="left:48px;top:62px;width:1178px;font-size:32px;line-height:1.06">That’s where West Monroe comes in. We offer an AI-powered modernization<br>model that compresses timelines, reduces risk, and increases value.</p>
+    <div class="timeline-bg"></div>
+    <div class="timeline-arrow"></div>
+    <div class="timeline-card" style="left:74px"><span class="icon blue-success"></span><h3>Subtitle</h3><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain</li></ul></div>
+    <div class="timeline-card" style="left:363px"><span class="icon blue-success"></span><h3>Subtitle</h3><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain</li></ul></div>
+    <div class="timeline-card" style="left:652px"><span class="icon blue-success"></span><h3>Subtitle</h3><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain</li></ul></div>
+    <div class="timeline-card" style="left:941px"><span class="icon blue-success"></span><h3>Subtitle</h3><ul><li>We prioritize business value, not just technical elegance.</li><li>All decisions are made through a value vs. complexity lens. We invest where ROI is highest and risk is manageable.</li><li>Our model is built around a Rationalize → Modernize → Sustain</li></ul></div>
+    <p class="abs bold white" style="left:45px;top:548px;width:1178px;text-align:center;font-size:20px;line-height:1.16">That’s where West Monroe comes in. We offer an AI-powered modernization</p>
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">9</span>
+  </section>
+
+  <section class="slide" data-node="62:524">
+    <div class="grid" style="left:14px;top:14px;width:250px;height:250px"></div>
+    <p class="abs bold" style="left:48px;top:62px;width:1178px;font-size:32px;line-height:1.06">That’s where West Monroe comes in. We offer an AI-powered modernization<br>model that compresses timelines, reduces risk, and increases value.</p>
+    <div class="diff-band" style="top:203px"></div>
+    <div class="diff-band" style="top:415px"></div>
+    <div class="diff-label" style="left:52px;top:264px"><strong>TOP 3 DIFFERENTIATOR</strong><span>According to clients</span></div>
+    <div class="diff-label" style="left:59px;top:492px"><strong>TOP 3 DIFFERENTIATOR</strong><span>According to clients</span></div>
+    <div class="diff-card navy" style="left:349px;top:186px"><span class="icon success white-icon"></span><strong>Responsive<br>and Flexible</strong></div>
+    <div class="diff-card navy" style="left:658px;top:186px"><span class="icon success white-icon"></span><strong>Responsive<br>and Flexible</strong></div>
+    <div class="diff-card navy" style="left:970px;top:186px"><span class="icon success white-icon"></span><strong>Responsive<br>and Flexible</strong></div>
+    <div class="diff-card bright" style="left:349px;top:404px"><span class="icon success white-icon"></span><strong>Responsive<br>and Flexible</strong></div>
+    <div class="diff-card bright" style="left:658px;top:404px"><span class="icon success white-icon"></span><strong>Responsive<br>and Flexible</strong></div>
+    <div class="diff-card bright" style="left:970px;top:404px"><span class="icon success white-icon"></span><strong>Responsive<br>and Flexible</strong></div>
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">10</span>
+  </section>
+
+  <section class="slide" data-node="ref:agenda">
+    <div class="grid" style="left:20px;top:18px;width:250px;height:250px"></div>
+    <p class="abs small-kicker" style="left:48px;top:40px">AGENDA</p>
+    <p class="abs bold" style="left:48px;top:78px;width:510px;font-size:54px;line-height:.96;letter-spacing:-.54px">Today’s conversation</p>
+    <div class="agenda-list">
+      <div><strong>01</strong><span>Why this matters now</span></div>
+      <div><strong>02</strong><span>What changes with AI</span></div>
+      <div><strong>03</strong><span>How West Monroe helps</span></div>
+      <div><strong>04</strong><span>Where to start</span></div>
+    </div>
+    <div class="abs" style="left:894px;top:0;width:386px;height:720px;background:var(--blue)"></div>
+    <img class="photo" src="assets/raw/slide-01-raw-01.jpeg" alt="" style="left:776px;top:132px;width:350px;height:350px">
+    <img class="abs" src="assets/brand/handdrawn/underscore-highlight.svg" alt="" style="left:760px;top:474px;width:275px;height:24px;transform:rotate(-2deg)">
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">11</span>
+  </section>
+
+  <section class="slide" data-node="ref:executive-summary">
+    <div class="grid" style="left:14px;top:14px;width:250px;height:250px"></div>
+    <p class="abs small-kicker" style="left:48px;top:40px">EXECUTIVE SUMMARY</p>
+    <p class="abs bold" style="left:48px;top:76px;width:740px;font-size:34px;line-height:1.04">A concise readout for leaders who need the answer first.</p>
+    <p class="abs" style="left:820px;top:72px;width:360px;font-size:19px;line-height:1.18">Use this layout for proposal summaries, board-level context, or early decision framing.</p>
+    <div class="summary-card" style="left:50px;top:215px"><h3>Situation</h3><p>Clients face rising complexity, aging platforms, and pressure to move faster.</p></div>
+    <div class="summary-card" style="left:454px;top:215px"><h3>Implication</h3><p>Traditional modernization creates long analysis cycles and delayed value.</p></div>
+    <div class="summary-card" style="left:858px;top:215px"><h3>Recommendation</h3><p>Prioritize value, compress understanding, and modernize iteratively.</p></div>
+    <div class="summary-band"><strong>Decision needed</strong><span>Align on the first modernization wave and the evidence needed to start.</span></div>
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">12</span>
+  </section>
+
+  <section class="slide" data-node="ref:metric-proof">
+    <p class="abs small-kicker" style="left:48px;top:42px">PROOF POINTS</p>
+    <p class="abs bold" style="left:48px;top:78px;width:725px;font-size:42px;line-height:1.02">Use the numbers to make urgency tangible.</p>
+    <div class="metric-card" style="left:50px"><strong>20-40%</strong><span>technology value consumed by technical debt</span></div>
+    <div class="metric-card" style="left:353px"><strong>50%</strong><span>faster time to market when modernization works</span></div>
+    <div class="metric-card" style="left:656px"><strong>2-4x</strong><span>faster timelines with AI-enabled understanding</span></div>
+    <div class="metric-card" style="left:959px"><strong>Days</strong><span>to system insight instead of months of manual analysis</span></div>
+    <p class="abs" style="left:51px;top:530px;width:702px;font-size:22px;line-height:1.14">This layout supports reference-deck patterns where a small set of statistics needs to carry the argument before the detail slides.</p>
+    <img class="abs" src="assets/brand/handdrawn/spark-accent.svg" alt="" style="left:782px;top:498px;width:80px;height:80px">
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">13</span>
+  </section>
+
+  <section class="slide" data-node="ref:two-column-detail">
+    <div class="grid" style="left:14px;top:14px;width:250px;height:250px"></div>
+    <p class="abs small-kicker" style="left:48px;top:38px">DETAIL</p>
+    <p class="abs bold" style="left:48px;top:72px;width:1110px;font-size:32px;line-height:1.06">Compare what is happening today with what needs to change.</p>
+    <div class="detail-column" style="left:50px"><h3>Current state</h3><ul><li>Undocumented platforms</li><li>Hidden dependencies</li><li>Manual analysis cycles</li><li>Conservative sequencing</li></ul></div>
+    <div class="detail-column bright" style="left:654px"><h3>Future state</h3><ul><li>Evidence-based understanding</li><li>Value-led prioritization</li><li>AI-assisted delivery</li><li>Iterative modernization</li></ul></div>
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">14</span>
+  </section>
+
+  <section class="slide" data-node="ref:case-study">
+    <div class="abs" style="left:0;top:0;width:453px;height:720px;background:var(--blue)"></div>
+    <p class="abs bold white" style="left:48px;top:58px;width:335px;font-size:42px;line-height:1.02">Client proof</p>
+    <img class="photo" src="assets/raw/slide-07-raw-01.jpeg" alt="" style="left:506px;top:78px;width:312px;height:312px">
+    <p class="abs small-kicker" style="left:866px;top:86px">CASE STUDY</p>
+    <p class="abs bold" style="left:866px;top:120px;width:346px;font-size:30px;line-height:1.06">Modernization that moves from insight to execution.</p>
+    <ul class="bullets abs" style="left:866px;top:256px;width:330px;font-size:18px"><li>Rapid system inventory</li><li>Prioritized roadmap</li><li>AI-assisted delivery</li><li>Client ownership transition</li></ul>
+    <div class="case-result"><strong>Result</strong><span>Faster decisions, lower delivery risk, and a clearer path to business value.</span></div>
+    <img class="logo-img" src="assets/brand/logos/wm-white.svg" alt="west monroe" style="left:48px;top:664px;width:157px;height:33px"><span class="page-number light">15</span>
+  </section>
+
+  <section class="slide" data-node="ref:credentials">
+    <p class="abs small-kicker" style="left:48px;top:40px">WHY WEST MONROE</p>
+    <p class="abs bold" style="left:48px;top:76px;width:760px;font-size:42px;line-height:1.02">Bring the right mix of industry, technology, and delivery experience.</p>
+    <div class="credential-card" style="left:50px"><span class="icon experience"></span><h3>Industry depth</h3><p>Teams that understand sector context and operating realities.</p></div>
+    <div class="credential-card" style="left:353px"><span class="icon strategy"></span><h3>Business strategy</h3><p>Modernization priorities tied to value, risk, and growth.</p></div>
+    <div class="credential-card" style="left:656px"><span class="icon tech"></span><h3>Technical execution</h3><p>Architecture, engineering, DevSecOps, and AI-enabled delivery.</p></div>
+    <div class="credential-card" style="left:959px"><span class="icon success"></span><h3>Proven delivery</h3><p>Reference stories, practitioners, and accelerators that reduce risk.</p></div>
+    <div class="footer"></div><img class="logo-img" src="assets/brand/logos/wm-blue.svg" alt="west monroe" style="left:46px;top:664px;width:162px;height:34px"><p class="footer-copy">© 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners’ prior consent is prohibited.</p><span class="page-number">16</span>
+  </section>
+</main>
+
+<style>
+  .card { position:absolute; top:195px; width:274px; height:317px; background:var(--light); }
+  .card > .icon { left:16px; top:-30px; width:62px; height:62px; background-color:#fff; }
+  .card-copy { position:absolute; top:236px; width:259px; font-size:13px; line-height:16px; }
+  .card-copy h3 { margin:0 0 8px; color:var(--highlight-blue); font-size:19px; line-height:1.1; text-align:center; }
+  .card-copy ul { margin:0; padding-left:19px; }
+  .why { position:absolute; top:484px; width:195px; height:152px; padding:16px 8px 8px 10px; background:var(--blue); color:#fff; font-size:13px; line-height:16px; }
+  .why .arrow { left:-69px; top:0; width:82px; height:82px; }
+  .why strong { color:var(--magenta); font-size:14px; line-height:16px; }
+  .why p { margin-top:9px; }
+  .keyword-card { position:absolute; top:158px; width:379px; height:408px; background:var(--light); }
+  .keyword-card .head { height:72px; background:var(--bright-blue); color:#fff; display:flex; align-items:center; gap:24px; padding-left:14px; font-size:20px; }
+  .keyword-card .head .icon { position:relative; left:auto; top:auto; width:52px; height:52px; flex:0 0 auto; }
+  .keyword-card ul { margin:18px 22px 0 22px; padding-left:26px; font-size:18px; line-height:18px; }
+  .timeline-bg { position:absolute; left:0; top:478px; width:1280px; height:155px; background:var(--blue); }
+  .timeline-arrow { position:absolute; left:50px; top:292px; width:1180px; height:28px; background:var(--bright-blue); clip-path:polygon(12px 0, calc(100% - 13px) 0, 100% 50%, calc(100% - 13px) 100%, 12px 100%, 0 50%); }
+  .timeline-card { position:absolute; top:148px; width:271px; height:400px; background:var(--light); }
+  .timeline-card .icon { position:absolute; left:110px; top:20px; width:52px; height:52px; }
+  .timeline-card h3 { position:absolute; left:0; top:82px; width:100%; margin:0; text-align:center; font-size:20px; }
+  .timeline-card ul { position:absolute; left:12px; top:185px; width:240px; margin:0; padding-left:16px; font-size:16px; line-height:18px; }
+  .diff-band { position:absolute; left:50px; width:1185px; height:171px; background:var(--light); }
+  .diff-label { position:absolute; width:261px; color:var(--blue); }
+  .diff-label strong { display:block; font-size:20px; line-height:1.4; }
+  .diff-label span { display:block; font-size:16px; line-height:1.4; margin-top:0; }
+  .diff-card { position:absolute; width:240px; height:205px; padding:20px 21px; color:#fff; }
+  .diff-card.navy { background:var(--blue); }
+  .diff-card.bright { background:var(--bright-blue); }
+  .diff-card .icon { position:relative; left:0; top:0; width:55px; height:55px; }
+  .diff-card strong { display:block; margin-top:9px; font-size:24px; line-height:1.16; }
+  .agenda-list { position:absolute; left:50px; top:235px; width:630px; }
+  .agenda-list div { display:flex; align-items:center; height:76px; border-top:2px solid var(--light); }
+  .agenda-list div:last-child { border-bottom:2px solid var(--light); }
+  .agenda-list strong { width:88px; color:var(--magenta); font-size:30px; line-height:1; }
+  .agenda-list span { font-size:25px; font-weight:700; line-height:1.1; }
+  .summary-card { position:absolute; width:355px; height:240px; padding:28px 26px; background:var(--light); }
+  .summary-card h3 { margin:0 0 18px; color:var(--highlight-blue); font-size:26px; line-height:1.05; }
+  .summary-card p { font-size:21px; line-height:1.14; }
+  .summary-band { position:absolute; left:50px; top:500px; width:1180px; height:94px; padding:22px 30px; background:var(--blue); color:#fff; display:flex; align-items:center; gap:28px; }
+  .summary-band strong { color:var(--magenta); font-size:22px; min-width:170px; }
+  .summary-band span { font-size:22px; line-height:1.12; }
+  .metric-card { position:absolute; top:235px; width:253px; height:225px; padding:28px 22px; background:var(--light); }
+  .metric-card strong { display:block; color:var(--highlight-blue); font-size:54px; line-height:.95; letter-spacing:-.54px; }
+  .metric-card span { display:block; margin-top:22px; font-size:20px; line-height:1.12; }
+  .detail-column { position:absolute; top:190px; width:576px; height:386px; padding:34px 36px; background:var(--light); }
+  .detail-column.bright { background:var(--blue); color:#fff; }
+  .detail-column h3 { margin:0 0 24px; color:var(--highlight-blue); font-size:30px; line-height:1; }
+  .detail-column.bright h3 { color:var(--magenta); }
+  .detail-column ul { margin:0; padding-left:24px; font-size:25px; line-height:1.25; }
+  .detail-column li { margin-bottom:13px; }
+  .case-result { position:absolute; left:506px; top:450px; width:706px; min-height:116px; padding:28px 30px; background:var(--light); display:flex; gap:28px; align-items:flex-start; }
+  .case-result strong { color:var(--highlight-blue); font-size:24px; min-width:92px; }
+  .case-result span { font-size:24px; line-height:1.12; }
+  .credential-card { position:absolute; top:272px; width:253px; height:248px; padding:26px 20px 20px; background:var(--light); }
+  .credential-card .icon { position:relative; left:0; top:0; width:54px; height:54px; }
+  .credential-card h3 { margin:19px 0 11px; color:var(--highlight-blue); font-size:23px; line-height:1.05; }
+  .credential-card p { font-size:18px; line-height:1.13; }
+</style>
+</body>
+</html>

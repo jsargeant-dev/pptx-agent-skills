@@ -1,0 +1,4365 @@
+{
+  "sourceDeckCount": 9,
+  "totalSlides": 203,
+  "familyCounts": {
+    "agenda": 35,
+    "approach-process": 64,
+    "content": 26,
+    "cover": 9,
+    "credentials": 4,
+    "dense-detail": 11,
+    "executive-summary": 8,
+    "photo-story": 27,
+    "proof": 14,
+    "statement-photo": 5
+  },
+  "decks": [
+    {
+      "path": "AI_Strategy_and_Roadmap_Walking_Deck.pptx",
+      "fileName": "AI_Strategy_and_Roadmap_Walking_Deck.pptx",
+      "slideCount": 16,
+      "mediaFileCount": 110,
+      "wordCount": {
+        "min": 8,
+        "avg": 178.9,
+        "max": 452
+      },
+      "familyCounts": {
+        "agenda": 1,
+        "approach-process": 13,
+        "cover": 1,
+        "statement-photo": 1
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 10,
+          "charCount": 56,
+          "family": "cover",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "MARCH 2026 AI Strategy & Roadmap Prepared for Client XYZ",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 91,
+          "charCount": 631,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 8,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 2 Most organizations are adopting AI at ever increasing rates\u2014but their efforts are fragmented, inconsistent, and not ",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 97,
+          "charCount": 643,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 3 The constraint isn\u2019t the technology. It\u2019s how AI is designed, governed, and embedded into how work actually gets don",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 141,
+          "charCount": 971,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 8,
+            "pictures": 8,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 4 It\u2019s time to shift from experimentation to an AI-enabled operating model. AI STRATEGY & ROADMAP Outcome-First Orient",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 452,
+          "charCount": 3160,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 16,
+            "pictures": 8,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Accountability for Outcomes, Not Just Recommendations Ultimately, the value of an AI strategy is measured by outcomes, not deliverables. A partner with end-to- end transformation capabilities is accountable for : Delivering working solution",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 103,
+          "charCount": 694,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 6,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 6 AI STRATEGY & ROADMAP THAT\u2019S WHERE WE COME IN West Monroe can help you build an effective AI strategy, plus guardrai",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 356,
+          "charCount": 2417,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 16,
+            "pictures": 14,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 7 AI STRATEGY & ROADMAP West Monroe brings the right mix of expertise, insights, and accelerators to help you capitali",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 220,
+          "charCount": 1669,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 19,
+            "pictures": 7,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 8 AI STRATEGY & ROADMAP Our delivery mindset means that we treat strategy as the input to a product delivery engine. W",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 199,
+          "charCount": 1320,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 8,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Uses West Monroe proprietary data collected over time by our experts in the field to provide valuable benchmarking insights not available anywhere else 5+ YRS of historical data for trend analysis 250+ peer datasets aggregated yearly Uses A",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 317,
+          "charCount": 2402,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 20,
+            "pictures": 6,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Launch WEEK 0 ACTIVITIES Project kickoff Confirm focus for AI-enabled workflows Submit and receive document request Align on KPIs that will be used to evaluate opportunities, including service, quality, productivity, and control outcomes DE",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 121,
+          "charCount": 799,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 27,
+            "pictures": 14,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 11 Ai Strategy & Roadmap OUR TEAM OF EXPERTS Engagement Lead With West Monroe, you don\u2019t have to choose between a busi",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 12,
+          "wordCount": 203,
+          "charCount": 1293,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 25,
+            "pictures": 7,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 12 We have co-created solutions across industries that solve our clients\u2019 biggest challenges\u2014and deliver rapid value. ",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-012.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 13,
+          "wordCount": 222,
+          "charCount": 1283,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hyperlink",
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 18,
+            "pictures": 12,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 13 And we\u2019re known as trusted advisors with perspectives rooted in real experiences, data, and results. AI STRATEGY & ",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-013.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 14,
+          "wordCount": 224,
+          "charCount": 1415,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 27,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 14 * 2025 Client Relationships Survey TRUSTED ADVISOR 99% of clients consider West Monroe a trusted strategic advisor*",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-014.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 15,
+          "wordCount": 99,
+          "charCount": 614,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 12,
+            "pictures": 4,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 15 Pricing Summary AI Strategy & Roadmap PROPOSAL NOTES & ASSUMPTIONS West Monroe typically performs projects of this ",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-015.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 16,
+          "wordCount": 8,
+          "charCount": 50,
+          "family": "statement-photo",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 1,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Ready to turn AI potential into measurable impact?",
+          "previewJpeg": "example-slide-previews/ai-strategy-and-roadmap-walking-deck/slide-016.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/ai-strategy-and-roadmap-walking-deck"
+    },
+    {
+      "path": "About_West_Monroe_AI-Native_Version.pptx",
+      "fileName": "About_West_Monroe_AI-Native_Version.pptx",
+      "slideCount": 14,
+      "mediaFileCount": 152,
+      "wordCount": {
+        "min": 7,
+        "avg": 244.4,
+        "max": 387
+      },
+      "familyCounts": {
+        "agenda": 1,
+        "approach-process": 8,
+        "cover": 1,
+        "dense-detail": 2,
+        "photo-story": 1,
+        "statement-photo": 1
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 7,
+          "charCount": 41,
+          "family": "cover",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 3,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "About West Monroe LAST UPDATED: JULY 2026",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 266,
+          "charCount": 1840,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 17,
+            "pictures": 9,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 2 ABOUT US West Monroe at-a-glance We're AI-native advisors who draw on decades of industry and private equity experie",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 135,
+          "charCount": 908,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 21,
+            "pictures": 11,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 3 As an AI-native firm, we don\u2019t just talk about what\u2019s possible. We apply AI and technology where it matters most. Ab",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 234,
+          "charCount": 1471,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 18,
+            "pictures": 4,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "But people remain at the core of everything we do. \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 4 ABOUT US OUR CLIENTS West Monroe is built around a simple belief:",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 288,
+          "charCount": 1670,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 15,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 5 ABOUT US Founded on a \u201dwe before me\u201d ethos, we\u2019re passionate about investing in ourselves, our teammates, and our cl",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 331,
+          "charCount": 2181,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 18,
+            "pictures": 6,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "We were recently awarded Gold by the Stevie \u00ae Awards for our AI-Driven Culture of Innovation. 2026 Acceleration Launched enterprise ChatGPT Added AI Builder tools (i.e., Claude Code, Google AI Studio, Codex, etc.) Published 50+ new AI apps ",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 334,
+          "charCount": 2292,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 13,
+            "pictures": 13,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 7 And we\u2019ll leverage this experience to help you reimagine your own roles, workflows, and ways of working for the age ",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 285,
+          "charCount": 1783,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 20,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Choose a Purpose-Built Strategy Agent Pick the agent that helps you explore something new, anticipate what could get in the way, or sharpen something you\u2019re already thinking about. 01 03 \u00a9 2026 West Monroe Partners | Reproduction and/or dis",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 325,
+          "charCount": 2501,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 21,
+            "pictures": 13,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 9 We\u2019ll bring the deep industry context needed to understand your business\u2014and the pattern recognition across industri",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 387,
+          "charCount": 2691,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hdphoto",
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 13,
+            "pictures": 14,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 10 ABOUT US We know that your challenges rarely fit inside one tool, one platform, or one team. That\u2019s why we bring an",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 262,
+          "charCount": 1702,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 10,
+            "pictures": 17,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 11 About Us WHAT THAT LOOKS LIKE At West Monroe, we work with you . We\u2019re there in the room, co-creating through chall",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 12,
+          "wordCount": 300,
+          "charCount": 1888,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 33,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 12 ABOUT US But don\u2019t just take our word for it. Our clients say we relentlessly drive value and build long-term, stra",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-012.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 13,
+          "wordCount": 258,
+          "charCount": 1516,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "hdphoto",
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 19,
+            "pictures": 14,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "INSIGHTS FROM WEST MONROE\u2019S CHIEF AI OFFICER, BRET GREENSTEIN ARTICLE Rewiring the Enterprise for AI Read more > ARTICLE The Real Barrier to AI ROI: People, and Their Resistance to Change Read more > \u00a9 2026 West Monroe Partners | Reproducti",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-013.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 14,
+          "wordCount": 9,
+          "charCount": 81,
+          "family": "statement-photo",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 3,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Ready to get started? CONTACT INFORMATION: Name email@westmonroe.com XXX-XXX-XXXX",
+          "previewJpeg": "example-slide-previews/about-west-monroe-ai-native-version/slide-014.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/about-west-monroe-ai-native-version"
+    },
+    {
+      "path": "BorgWarner_SPMS_RFP_Response_West_Monroe_SelectedSlides.pptx",
+      "fileName": "BorgWarner_SPMS_RFP_Response_West_Monroe_SelectedSlides.pptx",
+      "slideCount": 26,
+      "mediaFileCount": 194,
+      "wordCount": {
+        "min": 13,
+        "avg": 210.9,
+        "max": 597
+      },
+      "familyCounts": {
+        "agenda": 7,
+        "approach-process": 11,
+        "cover": 1,
+        "executive-summary": 5,
+        "photo-story": 1,
+        "proof": 1
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 13,
+          "charCount": 84,
+          "family": "cover",
+          "relationshipTypes": [
+            "comments",
+            "customXml",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 3,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Prepared for: BorgWarner June 5, 2026 West Monroe\u2019s SPMS Pricing Module RFP Response",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 63,
+          "charCount": 444,
+          "family": "executive-summary",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 9,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Executive Summary 0) Executive Summary Introduction Our Understanding Our Experience & Differentiators Proposed Approach Approach & Scope Vision & Solution Architecture Timeline Team Structure & Roles Pricing & Assumptions Supporting Detail",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 21,
+          "charCount": 144,
+          "family": "executive-summary",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Executive Summary 00 \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 3",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 221,
+          "charCount": 1808,
+          "family": "executive-summary",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 22,
+            "pictures": 7,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Centralized SPMS application with governed workflows, approvals, audit history, version control, and role-based access SPMS sits above SAP and consumes supplier, pricing, BOM, volume, and master data without requiring Phase 1 SAP writeback ",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 63,
+          "charCount": 444,
+          "family": "executive-summary",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 5 Executive Summary 0) Executive Summary Introduction Our Understanding Our Experience & Differentiators Proposed Appr",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 118,
+          "charCount": 907,
+          "family": "executive-summary",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Establish a global, standardized supplier pricing management process Create a single source of truth for supplier pricing, BOM, and cost data Automate pricing calculations, approvals, and change-impact analysis Improve visibility, governanc",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 177,
+          "charCount": 1247,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 28,
+            "pictures": 3,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "BorgWarner needs a partner who can turn fragmented inputs into trusted, real-time decisions Our understanding Status OWNER: Chris / Ben Not Started In-Progress Ready for QA Complete CURRENT PROCESS REALITY PARTNER REQUIREMENTS 90+ global pl",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 253,
+          "charCount": 1893,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 15,
+            "pictures": 8,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "West Monroe brings the functional, data, product, and engineering depth needed to deliver BorgWarner\u2019s SPMS Pricing Module Experience & differentiators Cost-Effective Delivery A blended onshore/nearshore team and reusable delivery assets he",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 372,
+          "charCount": 2595,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 16,
+            "pictures": 9,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 9 We offer an AI-powered modernization model that compresses timelines, reduces risk, and increases value Experience &",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 339,
+          "charCount": 2398,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 19,
+            "pictures": 5,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "We help clients design, build, test, and deploy great products Experience & differentiators We co-create and design technology to work for people \u2014 making businesses smarter now and creating momentum for the future. From manufacturing to fi",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 101,
+          "charCount": 685,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 10,
+            "pictures": 6,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "And critically, the right partner will leverage an adaptable approach, not a one-size-fits-all methodology. \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 11 You don",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 12,
+          "wordCount": 226,
+          "charCount": 1703,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 2,
+            "graphics": 2,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 12 Our Delivery Pillars Proposed Approach & Scope West Monroe combines deep industry expertise, product leadership, an",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-012.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 13,
+          "wordCount": 178,
+          "charCount": 1247,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 79,
+            "pictures": 14,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Our cross-functional teams deliver in iterative sprints, using shared backlog management, stakeholder reviews, UAT validation, and AI-accelerated delivery practices to continuously refine priorities, improve quality, and maintain roadmap co",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-013.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 14,
+          "wordCount": 597,
+          "charCount": 4184,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 129,
+            "pictures": 68,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Proposed VISION & SOLUTION ARCHITECTURE Data Sources Microsoft Azure Platform, Security & Governance Foundation Azure Entra ID / SSO / RBAC Azure Key Vault Private networking / VNet / Private Endpoints Monitoring & Observability Logging and",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-014.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 15,
+          "wordCount": 298,
+          "charCount": 2126,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 40,
+            "pictures": 10,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "1. Request (submit job) 2. Publish calculation request 4. Consume job 7. Fast response (job accepted / status available) 6. Completion / status event 5. Publish result / status Primary flow (request path) Event / message flow (async) We sep",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-015.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 16,
+          "wordCount": 377,
+          "charCount": 2959,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 48,
+            "pictures": 12,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Reporting data store Curated, historical, aggregated, query-ready data \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 16 And s eparate operational data from reportin",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-016.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 17,
+          "wordCount": 178,
+          "charCount": 1203,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 28,
+            "pictures": 28,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "MONTH 0 1 2 3 4 5 6 7 8 9 10 PHASE 1 PHASE 2 \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 17 Timeline and Workplan Discovery & Solution Blueprint Design, Build, & ",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-017.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 18,
+          "wordCount": 273,
+          "charCount": 2002,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 49,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 18 We will deploy a flexible pod-based delivery model that scales with business priorities, program pace, and technica",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-018.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 19,
+          "wordCount": 132,
+          "charCount": 989,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 21,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 19 To ensure success, we will actively partner with BorgWarner to deliver impactful outcomes Team Structure & RoLES Th",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-019.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 20,
+          "wordCount": 133,
+          "charCount": 933,
+          "family": "proof",
+          "relationshipTypes": [
+            "comments",
+            "customXml",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 14,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "The Challenge Legacy code base running on unsupported hardware and software 36+ yr old code base 4M+ lines of legacy 4GL code No legacy system documentation available The Solution Built modern, custom ERP running on Azure Leveraged AI to: H",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-020.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 21,
+          "wordCount": 187,
+          "charCount": 1149,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 18,
+            "pictures": 4,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "People are at the core of everything we do OUR CLIENTS We show up personally. And we focus on what matters most\u2014our clients, employees and communities\u2014to drive tangible results. OUR PEOPLE & OUR IMPACT 85 Net Promoter Score 1 (the industry ",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-021.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 22,
+          "wordCount": 254,
+          "charCount": 1649,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 39,
+            "pictures": 7,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "ABOUT US But don\u2019t just take our word for it. Our clients and the market say we relentlessly drive value and build long-term, strategic partnerships. $65M in cost savings LARGE INVESTOR-OWNED UTILITY Identified through a 3-year blueprint fo",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-022.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 23,
+          "wordCount": 118,
+          "charCount": 794,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 17,
+            "pictures": 9,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "ABOUT US We know that nobody has time for\u2026 Disconnected teams, slow progress Bait-and-switch team members, lost time and expertise Walls between practices, zero communication Unhappy end-users, disrupted growth plans Juggling consultants an",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-023.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 24,
+          "wordCount": 310,
+          "charCount": 2336,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 17,
+            "pictures": 10,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "West Monroe\u2019s Tech Delivery capabilities at-a-glance We\u2019re tech-forward advisors who draw on decades of industry and PE experience to create value quickly and execute with precision. We partner with clients to modernize every layer of the t",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-024.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 25,
+          "wordCount": 243,
+          "charCount": 1673,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 21,
+            "pictures": 11,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 25 Intellio \u00ae Evolve combines AI with advanced code analysis to guide modernization that not only rebuilds code but en",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-025.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 26,
+          "wordCount": 239,
+          "charCount": 1714,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 47,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Clonal delivers intelligence through the interfaces your team already uses, or through purpose-built applications designed around your specific operations. \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe P",
+          "previewJpeg": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides/slide-026.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/borgwarner-spms-rfp-response-west-monroe-selectedslides"
+    },
+    {
+      "path": "IWG_West_Monroe_VAX_Modernization_Executive_Presentation.pptx",
+      "fileName": "IWG_West_Monroe_VAX_Modernization_Executive_Presentation.pptx",
+      "slideCount": 55,
+      "mediaFileCount": 140,
+      "wordCount": {
+        "min": 19,
+        "avg": 147,
+        "max": 574
+      },
+      "familyCounts": {
+        "agenda": 7,
+        "approach-process": 10,
+        "content": 19,
+        "cover": 1,
+        "credentials": 2,
+        "executive-summary": 1,
+        "photo-story": 6,
+        "proof": 7,
+        "statement-photo": 2
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 108,
+          "charCount": 713,
+          "family": "cover",
+          "relationshipTypes": [
+            "hyperlink",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 3,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "This deck is part of the Pursuit COE proposal repository, designed to guide you as you create your own proposals and business development materials. Use it as a reference for structure and approach\u2014not for specific content. Always confirm t",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 19,
+          "charCount": 129,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 3,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Leveraging proven expertise, accelerators, and a collaborative approach Why West Monroe is the Right Partner to Modernize the VAX",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 44,
+          "charCount": 296,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "AGENDA Intros Why We\u2019re Here Today Deep analysis with Intellio \u00ae Evolve Scalable, Secure & Maintainable Technology Agile Sprint & Incremental Delivery Model Why West Monroe \u00a9 2026 West Monroe Partners | Reproduction and/or distribution with",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 47,
+          "charCount": 328,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 8,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 4 Erik Brown Senior Partner, Proposed mVAX Technical Engagement Lead Sam Dawes Partner , Proposed Client Engagement Le",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 310,
+          "charCount": 2335,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 17,
+            "pictures": 10,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "West Monroe\u2019s Tech Delivery capabilities at-a-glance We\u2019re tech-forward advisors who draw on decades of industry and PE experience to create value quickly and execute with precision. We partner with clients to modernize every layer of the t",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 103,
+          "charCount": 718,
+          "family": "executive-summary",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Modernize the mainframe to a future-proof technology platform Execute quickly and confidently with high quality and reliability Co-develop a solution with the Pantheon team that will support and sustain long term success Deliver with an app",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 186,
+          "charCount": 1345,
+          "family": "proof",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 5,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 7 In our last phase, we proved AI-centric modernization is feasible by producing real code, real infrastructure, and a",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 24,
+          "charCount": 164,
+          "family": "content",
+          "relationshipTypes": [
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 8 POC Demonstration EVIDENCE YOU CAN TRUST",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 71,
+          "charCount": 509,
+          "family": "agenda",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 9 We\u2019ve designed a disciplined, industrial-grade execution that blends: 01 Deep analysis and acceleration with Intelli",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 27,
+          "charCount": 179,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Deep Analysis & Acceleration with Intellio \u00ae Evolve \u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 10 01",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 208,
+          "charCount": 1534,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 14,
+            "pictures": 9,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Intellio \u00ae Evolve combines AI with advanced code analysis, using abstract syntax trees and other representations to map how your software actually works. We work alongside existing development tools and integrate with leading LLMs like Clau",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 12,
+          "wordCount": 25,
+          "charCount": 175,
+          "family": "statement-photo",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 12 Demonstration DEEP ANALYSIS WITH INTELLIO \u00ae EVOLVE",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-012.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 13,
+          "wordCount": 24,
+          "charCount": 170,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Scalable, Secure & Maintainable Technology \u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 13 02",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-013.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 14,
+          "wordCount": 127,
+          "charCount": 906,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 37,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Proposed mVAX Conceptual Architecture \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 14 We\u2019ll design and co-develop a scalable, flexible solution that works for your",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-014.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 15,
+          "wordCount": 136,
+          "charCount": 1019,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 59,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 15 mVAX will eliminate critical business continuity concerns, preserve critical features, drive differentiation, and u",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-015.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 16,
+          "wordCount": 120,
+          "charCount": 870,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 16 Working with your team (and our AI-tools and your source code), we\u2019ve already identified the functional and non-fun",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-016.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 17,
+          "wordCount": 23,
+          "charCount": 172,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Continuous, AI-Enabled, Incremental Delivery \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 17 03",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-017.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 18,
+          "wordCount": 193,
+          "charCount": 1273,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 52,
+            "pictures": 2,
+            "graphics": 2,
+            "tables": 1
+          },
+          "textPreview": "Continuous, AI-enabled, incremental delivery We will use agile methodologies and the \u201cStrangler Method\u201d to deploy solutions in smaller increments, enabling us all to see progress in real-time. 2026 2027 MAR APR MAY JUN JUL AUG SEP OCT NOV D",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-018.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 19,
+          "wordCount": 93,
+          "charCount": 654,
+          "family": "credentials",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 14,
+            "pictures": 10,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 19 Zach Spitzer* Sr. Software Engineer Danny Stutz* Cloud Architect Erik Brown Sr. Partner, Technical Engagement Lead ",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-019.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 20,
+          "wordCount": 574,
+          "charCount": 4801,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 2,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 20 Members* Experience Relevant Skills Client Partners Erik Brown Executive technical lead with deep hands-on backgrou",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-020.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 21,
+          "wordCount": 341,
+          "charCount": 2238,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 50,
+            "pictures": 3,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 21 Solution Overview Engagement Leadership Pantheon SteerCo Program & Delivery Leadership Product Owner Tech Lead POD-",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-021.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 22,
+          "wordCount": 148,
+          "charCount": 987,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 12,
+            "pictures": 4,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 22 How we deliver success together Why this will work RESULTS YOU CAN COUNT ON Pantheon's Challenge A complete moderni",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-022.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 23,
+          "wordCount": 262,
+          "charCount": 1795,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 1,
+            "graphics": 2,
+            "tables": 2
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 23 Date Invoice Amount Notes Execution of SOW $365,000 Est. 2/28/2026 4/24/2026 $365,000 + expenses Sprint 4 Completio",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-023.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 24,
+          "wordCount": 261,
+          "charCount": 1908,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 15,
+            "pictures": 8,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 24 We\u2019re the ideal partner for this execution phase. Why West Monroe Cost-Effective Delivery Leveraging nearshore reso",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-024.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 25,
+          "wordCount": 58,
+          "charCount": 388,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 8,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 25 And we have the expertise and experience to prove it. Why West Monroe Here are three clients we provided as referen",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-025.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 26,
+          "wordCount": 25,
+          "charCount": 160,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 2,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Let\u2019s discuss: How our approach aligns with your goals. Any specific concerns or challenges you foresee. Next steps to move forward with the mVAX modernization.",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-026.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 27,
+          "wordCount": 23,
+          "charCount": 152,
+          "family": "statement-photo",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Answers to Vendor Brief Q&A \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 27",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-027.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 28,
+          "wordCount": 199,
+          "charCount": 1361,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "What is included in your proposed approach and fee estimate? The proposed approach includes end-to-end modernization of VAX into mVAX across four structured phases, delivered on a fixed-fee basis of $9.45M over ~17\u201320 months . Specifically,",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-028.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 29,
+          "wordCount": 185,
+          "charCount": 1302,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Why is this approach best suited for this modernization? This approach is best suited because: VAX is not replaced \u2014 it is decomposed and modernized Legacy business logic is preserved and selectively re-implemented, not discarded. User expe",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-029.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 30,
+          "wordCount": 153,
+          "charCount": 1157,
+          "family": "agenda",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 2,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 30 How does this approach set International Wire up for post-modernization success? The approach explicitly transition",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-030.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 31,
+          "wordCount": 100,
+          "charCount": 721,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 31 How does the proprietary technology/method work, and how is quality ensured? Intellio \u00ae Evolve combines: AI-assiste",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-031.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 32,
+          "wordCount": 104,
+          "charCount": 773,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 32 What technology solution results, and why is it superior? The resulting solution is a cloud-native, modular ERP pla",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-032.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 33,
+          "wordCount": 146,
+          "charCount": 969,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 33 What does the team structure look like? Pantheon interfaces with: Engagement Lead \u2013 executive accountability Engage",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-033.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 34,
+          "wordCount": 95,
+          "charCount": 718,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 34 What support is required after code delivery? West Monroe-provided: 8 weeks of post-go-live hypercare Defect resolu",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-034.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 35,
+          "wordCount": 121,
+          "charCount": 901,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 35 Typical Challenges Underestimating legacy complexity Inconsistent stakeholder availability Data quality issues Scop",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-035.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 36,
+          "wordCount": 144,
+          "charCount": 985,
+          "family": "proof",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 36 On-time and on-budget performance West Monroe mitigates risk via: Fixed fee tied to Exhibit C backlog Sprint-level ",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-036.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 37,
+          "wordCount": 128,
+          "charCount": 957,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 37 How does this improve business continuity and exit readiness? The solution provides: Documented architecture Standa",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-037.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 38,
+          "wordCount": 52,
+          "charCount": 401,
+          "family": "proof",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Case Studies: Success stories from similar modernization projects. Detailed Timeline: Sprint-by-sprint breakdown of the project. Resource Plan: Allocation of West Monroe and International Wire resources. Proprietary Tools: Deep dive into In",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-038.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 39,
+          "wordCount": 19,
+          "charCount": 129,
+          "family": "credentials",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Bios \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 39",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-039.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 40,
+          "wordCount": 192,
+          "charCount": 1344,
+          "family": "content",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 40 Sam Dawes Partner, Consumer & Industrial Products Sam excels at delivering impactful cross-functional programs for ",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-040.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 41,
+          "wordCount": 209,
+          "charCount": 1452,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 41 Erik Brown Senior Partner, Product Experience and Engineering Lab Background Erik is a seasoned software engineer, ",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-041.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 42,
+          "wordCount": 229,
+          "charCount": 1661,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 42 Lorenzo De Leon Senior Principal, Technology & Experience (TechEx) Background Lorenzo is a dynamic technology leade",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-042.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 43,
+          "wordCount": 231,
+          "charCount": 1689,
+          "family": "content",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 43 Joe Mongiat Senior Architect, Technology Joe leverages his extensive software engineering expertise to lead the arc",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-043.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 44,
+          "wordCount": 157,
+          "charCount": 1152,
+          "family": "content",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 44 Michael Dorus Architect, Customer Experience Michael Dorus, a Salesforce Architect with the Customer Experience tea",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-044.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 45,
+          "wordCount": 203,
+          "charCount": 1386,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 8,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 45 Kristel Villalobos Software Engineer | TechEx Practice Kristel is a Software Engineer and full-stack developer at W",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-045.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 46,
+          "wordCount": 238,
+          "charCount": 1762,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 46 Marcos Blanco Senior Software Engineer | CSM | CAPM Software Developer and Scrum Master with over 15 years of exper",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-046.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 47,
+          "wordCount": 186,
+          "charCount": 1412,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 47 Daniel Arce Principal Software Engineer Daniel is a Principal software engineer with over 15 years of experience de",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-047.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 48,
+          "wordCount": 222,
+          "charCount": 1590,
+          "family": "content",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 48 Danny Stutz Senior Consultant, Technology \u2013 Enterprise Technology + Cybersecurity \u2013 Chicago Danny combines public, ",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-048.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 49,
+          "wordCount": 199,
+          "charCount": 1400,
+          "family": "content",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 49 Curtis Bennett (cbennett) Principal Software Engineer, TechEx Curtis, a Principal Software Engineer at West Monroe\u2019",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-049.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 50,
+          "wordCount": 202,
+          "charCount": 1450,
+          "family": "content",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 50 Allison Hartman Senior Software Engineer, PXEL Background Allison is a Senior Software Engineer at West Monroe Part",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-050.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 51,
+          "wordCount": 255,
+          "charCount": 1708,
+          "family": "content",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 51 Zachary Spitzer Senior Software Engineer, Technology & Experience (TechEx) Zachary is a Senior Software Engineer in",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-051.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 52,
+          "wordCount": 20,
+          "charCount": 137,
+          "family": "proof",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Case Studies \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 52",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-052.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 53,
+          "wordCount": 191,
+          "charCount": 1374,
+          "family": "proof",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 17,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "53 Modernizing Commercial ERP Software Legacy Code with AI The Challenge Legacy technology: legacy code base has caused performance bottlenecks and R&D inefficiencies 39 yr old code base ~30M lines of code Built with legacy 4GL Process inef",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-053.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 54,
+          "wordCount": 197,
+          "charCount": 1388,
+          "family": "proof",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 21,
+            "pictures": 3,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 54 Organization doubled in revenue during the pandemic and its systems were struggling to support the rapid growth. Cl",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-054.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 55,
+          "wordCount": 128,
+          "charCount": 902,
+          "family": "proof",
+          "relationshipTypes": [
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 16,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2024 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 55 Chime, a rapidly growing startup, needed help replacing their third-party disputes platform and improving their int",
+          "previewJpeg": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation/slide-055.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/iwg-west-monroe-vax-modernization-executive-presentation"
+    },
+    {
+      "path": "Jenner-Block_RFP_Response.pptx",
+      "fileName": "Jenner-Block_RFP_Response.pptx",
+      "slideCount": 40,
+      "mediaFileCount": 106,
+      "wordCount": {
+        "min": 13,
+        "avg": 272.2,
+        "max": 509
+      },
+      "familyCounts": {
+        "agenda": 12,
+        "approach-process": 11,
+        "cover": 1,
+        "credentials": 1,
+        "dense-detail": 6,
+        "executive-summary": 2,
+        "photo-story": 1,
+        "proof": 6
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 13,
+          "charCount": 92,
+          "family": "cover",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 2,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "West Monroe Response June 2026 Jenner & Block RFP: SuperHub Platform Implementation Approach",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 509,
+          "charCount": 3510,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Cover Letter Dear Evaluation Committee, West Monroe Partners is pleased to submit our response to Jenner & Block\u2019s Request for Proposal for an Integrated Marketing Platform Ecosystem. We appreciate the opportunity to help Jenner build Super",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 62,
+          "charCount": 426,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 3 01 02 03 04 05 06 07 08 09 10 11 Table of Contents Our Understanding Qualifications & Relevant Experience Team Staff",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 51,
+          "charCount": 374,
+          "family": "executive-summary",
+          "relationshipTypes": [
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "Our Understanding \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 4 01 Ref ID RFP Requirement Response Location Brief 1 / RFP I-II SuperHub goals, priorities, cloud-f",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 191,
+          "charCount": 1413,
+          "family": "executive-summary",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 5 Jenner & Block is looking to move beyond disconnected marketing, business development, CRM, and experience tools. Je",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 113,
+          "charCount": 740,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "Qualifications & Relevant Experience \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 6 02 Ref ID RFP Requirement Response Location RFP 6.2A / Brief 5.1 Company histor",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 317,
+          "charCount": 1911,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 36,
+            "pictures": 6,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 7 West Monroe at-a-glance We\u2019re tech-forward advisors who draw on decades of industry and technology experience to cre",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 175,
+          "charCount": 1276,
+          "family": "credentials",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 17,
+            "pictures": 21,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Platforms Expertise * Marketing Strategy Marketing Process & Technology Service Strategy / Contact Center Service Process & Technology Sales Strategy Sales Process & Technology Software Modernization Modern Integration Platform Intelligent ",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 186,
+          "charCount": 1343,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "comments",
+            "hdphoto",
+            "hyperlink",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 19,
+            "pictures": 4,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Our Salesforce Team is made of the best and brightest platform experts with technical and functional capabilities. And the market agrees\u2026 \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior con",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 230,
+          "charCount": 1661,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 12,
+            "pictures": 9,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 10 West Monroe focuses on the strategic mechanics that drive change with a people-centric approach . Our People-Centri",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 324,
+          "charCount": 2449,
+          "family": "proof",
+          "relationshipTypes": [
+            "comments",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 11 West Monroe brings proven experience across CRM, Data, Operating Model, and Change\u2014both within Legal and in adjacen",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 12,
+          "wordCount": 440,
+          "charCount": 3106,
+          "family": "proof",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 15,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "A leading law firm needed its CRM to become a trusted engine for relationships and growth, not another administrative burden. High manual effort, poor data quality, limited adoption, and a heavily customized technology environment made it d",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-012.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 13,
+          "wordCount": 386,
+          "charCount": 2757,
+          "family": "proof",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "A global law firm needed to know whether its existing CRM could support the next era of relationship management, business development, marketing, reporting, and data governance. The bigger need was alignment: business and technology stakeho",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-013.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 14,
+          "wordCount": 369,
+          "charCount": 2648,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 15,
+            "pictures": 7,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "A fast-growing and highly acquisitive registered investment advisor, had the ambition to become a more scaled platform RIA within two to three years. Fragmented operations, siloed data, and inconsistent processes were slowing that growth an",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-014.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 15,
+          "wordCount": 429,
+          "charCount": 3298,
+          "family": "proof",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 10,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Client needed to modernize marketing operations that had become fragmented across activities, systems, templates, and data sources. Limited customer segmentation, campaign visibility, personalization, and reporting made it harder for teams ",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-015.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 16,
+          "wordCount": 369,
+          "charCount": 2575,
+          "family": "proof",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 16,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Following a recent merger, client needed to simplify and scale how it served clients and employees across health, wealth, retirement, and employee benefits. The organization was managing high-volume service demand while also trying to impro",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-016.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 17,
+          "wordCount": 371,
+          "charCount": 2598,
+          "family": "proof",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 14,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "As part of a broader digital transformation, client implemented Configure, Price, Quote (CPQ) and Professional Services Automation (PSA) platforms that would change how approximately 6,000 employees worked through the quote-to-order process",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-017.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 18,
+          "wordCount": 106,
+          "charCount": 754,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "Team Staffing & Qualifications \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 18 03 Ref ID RFP Requirement Response Location RFP 6.3A / Brief 5.1 Proposed organizati",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-018.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 19,
+          "wordCount": 267,
+          "charCount": 1832,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 38,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 19 Team Structure 1 TEAM & EXPERIENCE West Monroe Resources Jenner & Block Resources Key: Senior Salesforce Analyst Or",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-019.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 20,
+          "wordCount": 501,
+          "charCount": 3781,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 9,
+            "pictures": 1,
+            "graphics": 3,
+            "tables": 2
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 20 Team Roles & Responsibilities TEAM & EXPERIENCE QA/ Account Manager Provides escalation point for project design an",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-020.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 21,
+          "wordCount": 294,
+          "charCount": 2157,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 9,
+            "pictures": 4,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 21 We maintain formal processes for the screening, hiring, training, and retention of personnel to ensure that employe",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-021.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 22,
+          "wordCount": 182,
+          "charCount": 1367,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "Proposed Solution Overview \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 22 04 Ref ID RFP Requirement Response Location RFP 7.1A / RFP VIII / Brief 5.2 Solution ove",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-022.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 23,
+          "wordCount": 230,
+          "charCount": 1668,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 23 Our proposed solution is grounded in guiding principles informed by law firm and enterprise expertise Proposed Solu",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-023.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 24,
+          "wordCount": 299,
+          "charCount": 1928,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 24 SuperHub will serve as Jenner\u2019s CRM platform and be integrated with critical systems in a phased approach Data Flow",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-024.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 25,
+          "wordCount": 205,
+          "charCount": 1518,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "Implementation Approach \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 25 05 Ref ID RFP Requirement Response Location Brief 3.4 / Brief 5.5 Migration approach by sou",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-025.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 26,
+          "wordCount": 460,
+          "charCount": 3292,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "customXml",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "FOCUS OF PROPOSAL \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 26 Our phased implementation approach prioritizes the SuperHub data foundation, CRM replacement, and",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-026.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 27,
+          "wordCount": 225,
+          "charCount": 1739,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "ACCOUNT MANAGEMENT CAMPAIGN MANAGEMENT OPPORTUNITY MANAGEMENT RELATIONSHIP MANAGEMENT EXPERIENCE MANAGEMENT ALUMNI MANAGEMENT DATA MANAGEMENT PRODUCTIVITY ENABLERS ANALYTICS & INSIGHT Account Data Campaign Build Pursuit Tracking Relationshi",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-027.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 28,
+          "wordCount": 386,
+          "charCount": 2847,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 28 Phase 01 replaces InterAction and establishes the SuperHub foundation for account, contact, relationship, and exper",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-028.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 29,
+          "wordCount": 304,
+          "charCount": 2328,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 29 Phase 02 enables Opportunity Management, replaces Vuture with Marketing Cloud Advanced, and sets up the proposal as",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-029.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 30,
+          "wordCount": 308,
+          "charCount": 2304,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 30 Phase 03 expands SuperHub to support Account Management, surveys, and alumni/ financial integrations as source syst",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-030.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 31,
+          "wordCount": 278,
+          "charCount": 1779,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 30,
+            "pictures": 0,
+            "graphics": 3,
+            "tables": 3
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 31 The below timeline shows the phased approach broken out by key activities & milestones Implementation Approach *Tim",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-031.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 32,
+          "wordCount": 194,
+          "charCount": 1337,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 37,
+            "pictures": 7,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Vision & Discovery Design & Plan Sustain Build Iterate Build, Iterate & Sustain FOUNDATIONAL PLANNING 7-8 Weeks SPRINTS TO PHASE 01 RELEASE 21-26 Weeks Our implementation approach is rooted in human-centered design principles \u00a9 2026 West Mo",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-032.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 33,
+          "wordCount": 315,
+          "charCount": 2359,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 33,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "KEY MILESTONES Project Kick-Off Requirements Sign-Off KEY OUTPUTS Kickoff materials and project governance setup Project Vision & Success Measures Prioritized User Story Backlog KEY ACTIVITIES Plan & Prepare Project kickoff\u200b Confirmation of",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-033.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 34,
+          "wordCount": 360,
+          "charCount": 2698,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 34,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "KEY MILESTONES Initial solution design sign-off Initial Data migration and cleansing approach approved Integration architecture approach approved Cutover and testing strategy confirmed KEY OUTPUTS Functional & Technical Solution Design Data",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-034.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 35,
+          "wordCount": 395,
+          "charCount": 3001,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 35,
+            "pictures": 1,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "KEY MILESTONES Phase 1 build complete Testing sign off Training complete Go-live KEY OUTPUTS Configured Phase 1 Salesforce Foundation Validated Data Migration & Foundational Integrations Go-Live, Hypercare & Updated Support Playbook Initial",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-035.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 36,
+          "wordCount": 264,
+          "charCount": 1706,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "customXml",
+            "image",
+            "notesSlide",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 36,
+            "pictures": 1,
+            "graphics": 2,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 36 QUARTER Q1 Q2 Q3 Q4 Q1 MONTH 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 Phase 01: Build SuperHub Foundation Vision & Disco",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-036.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 37,
+          "wordCount": 140,
+          "charCount": 981,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 13,
+            "pictures": 8,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 37 West Monroe\u2019s extensive experience in implementing cloud-based platform solutions like Salesforce has yielded a pro",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-037.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 38,
+          "wordCount": 76,
+          "charCount": 542,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "Pricing \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 38 09 Ref ID RFP Requirement Response Location RFP IX / Brief 5.6 Pricing, phase costs, assumptions, optional ",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-038.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 39,
+          "wordCount": 340,
+          "charCount": 2191,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 39 We recognize the scale and impact of this transformation for Jenner; our phased pricing reflects an intentional app",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-039.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 40,
+          "wordCount": 224,
+          "charCount": 1593,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 40 WM has included 3 optional services as part of proposal pricing that will save Jenner time and improve progress tow",
+          "previewJpeg": "example-slide-previews/jenner-block-rfp-response/slide-040.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/jenner-block-rfp-response"
+    },
+    {
+      "path": "Life_Sciences_Practice_Walking_Deck.pptx",
+      "fileName": "Life_Sciences_Practice_Walking_Deck.pptx",
+      "slideCount": 11,
+      "mediaFileCount": 119,
+      "wordCount": {
+        "min": 4,
+        "avg": 171.6,
+        "max": 332
+      },
+      "familyCounts": {
+        "agenda": 1,
+        "cover": 1,
+        "dense-detail": 3,
+        "photo-story": 5,
+        "statement-photo": 1
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 10,
+          "charCount": 67,
+          "family": "cover",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 3,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "About West Monroe\u2019s Life Sciences Practice LAST UPDATED: MARCH 2025",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 79,
+          "charCount": 565,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "OUR COMMITMENT At West Monroe, we empower life sciences companies like you to become more efficient and scalable with smart manufacturing, tech-forward operations, and an agile workforce. From navigating FDA regulations to modernizing and o",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 330,
+          "charCount": 2607,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 17,
+            "pictures": 4,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Our Life Sciences Practice at-a-glance We\u2019re a global consulting firm fluent in business and technology\u2014building practical solutions with lasting impact. And we help companies like you make progress with data-driven market research, smart m",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 139,
+          "charCount": 944,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 15,
+            "pictures": 26,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 4 About us Together, we make a real difference for real people. The West Monroe [team] quickly got up to speed on our ",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 235,
+          "charCount": 1446,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 21,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 5 OUR CLIENTS We show up personally. And we focus on what matters most\u2014 our clients, employees and communities \u2014to dri",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 199,
+          "charCount": 1425,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 18,
+            "pictures": 14,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 6 About US We bring business and tech together through the unique lens of our Life Sciences experience and expertise. ",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 206,
+          "charCount": 1333,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 9,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 7 About US Leveraging Innovation & Investment From navigating FDA regulations to optimizing manufacturing processes, w",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 297,
+          "charCount": 2155,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 12,
+            "pictures": 7,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Regulatory Compliance & Governance Regulatory challenges and privacy and protection of patient data remain a top concern, especially as AI is used more in data and analytics, imaging, and real-time monitored devices. Life science companies ",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 57,
+          "charCount": 390,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "hdphoto",
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 9,
+            "pictures": 9,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "9 ABOUT US \u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. We\u2019re known as trusted advisors with insights and perspectives that are rooted in real experiences, data, a",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 332,
+          "charCount": 2288,
+          "family": "dense-detail",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 28,
+            "pictures": 9,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 10 ABOUT US But don\u2019t just take our word for it. Our clients and the market say we relentlessly drive value and build ",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 4,
+          "charCount": 29,
+          "family": "statement-photo",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 1,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Clear Action. Lasting Impact.",
+          "previewJpeg": "example-slide-previews/life-sciences-practice-walking-deck/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/life-sciences-practice-walking-deck"
+    },
+    {
+      "path": "Res_Services_Version_SelectedSLides.pptx",
+      "fileName": "Res_Services_Version_SelectedSLides.pptx",
+      "slideCount": 14,
+      "mediaFileCount": 66,
+      "wordCount": {
+        "min": 13,
+        "avg": 166.1,
+        "max": 290
+      },
+      "familyCounts": {
+        "agenda": 2,
+        "approach-process": 5,
+        "content": 3,
+        "cover": 1,
+        "photo-story": 3
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 13,
+          "charCount": 90,
+          "family": "cover",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 3,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Why Execution Matters More Than Scale The New Technology Playbook for Residential Services",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 229,
+          "charCount": 1606,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 2 In Residential Services, Technology Only Creates Value When it Improves Execution. Residential services has entered ",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 54,
+          "charCount": 327,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 3 00 0 1 0 2 0 3 0 4 What You'll Get From This Guide Executive Summary Shifting From Scale to Consistency Defining Exe",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 236,
+          "charCount": 1754,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 12,
+            "pictures": 4,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 4 What Defines Strong Execution IQ Execution IQ is the ability to run a platform as a coordinated system where perform",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 35,
+          "charCount": 238,
+          "family": "content",
+          "relationshipTypes": [
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 6,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "What Was Once Differentiated Is Now Table Stakes Across Residential Services Shifting From Scale to Consistency \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 5 01",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 191,
+          "charCount": 1334,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 13,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Run on the same field service tools like ServiceTitan , BuildOps , ServiceTrade , Jobber Have centralized back-office functions Execute similar acquisition strategies Compete for the same labor and customer pools \u00a9 2026 West Monroe Partners",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 216,
+          "charCount": 1567,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 3,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 7 Scale Amplifies Variance SHIFTING FROM SCALE TO CONSISTENCY The Result These dynamics don\u2019t just create inefficiency",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 174,
+          "charCount": 1185,
+          "family": "content",
+          "relationshipTypes": [
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 28,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "8 Institutionalizing How the Business Runs DEFINING EXECUTION IQ From: Technician performance driven by tenure and instinct Dispatching based on availability, not margin or job fit Pricing decisions made inconsistently across locations and ",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 150,
+          "charCount": 1000,
+          "family": "agenda",
+          "relationshipTypes": [
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 9 Performance Becomes Repeatable When It Is System-Driven DEFINING EXECUTION IQ 01 Detect performance variance in real",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 290,
+          "charCount": 2045,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 13,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 10 A private equity-backed pest control provider pursuing an aggressive acquisition strategy needed to integrate seven",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 209,
+          "charCount": 1579,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 17,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 11 Operational Intelligence Drives Measurable EBITDA Impact THE NEXT DRIVERS OF VALUE CREATION Legacy Approach Executi",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 12,
+          "wordCount": 232,
+          "charCount": 1615,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "hyperlink",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 9,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 12 What an Operational Intelligence Platform Does INTELLIGENCE COMPOUNDS ACROSS THE PLATFORM An OIP transforms fragmen",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-012.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 13,
+          "wordCount": 100,
+          "charCount": 743,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 27,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "13 The Compounding Flywheel INTELLIGENCE COMPOUNDS ACROSS THE PLATFORM \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. Once in place, the OIP enables a repeatable pat",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-013.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 14,
+          "wordCount": 197,
+          "charCount": 1289,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Residential services investing was built on aggregation. The next era will be defined by operational engineering . Scale is now the price of admission. Core systems are widely adopted and, increasingly, commoditized. What separates leading ",
+          "previewJpeg": "example-slide-previews/res-services-version-selectedslides/slide-014.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/res-services-version-selectedslides"
+    },
+    {
+      "path": "Walmart_Health_and_Wellness_Executive_Leadership.pptx",
+      "fileName": "Walmart_Health_and_Wellness_Executive_Leadership.pptx",
+      "slideCount": 15,
+      "mediaFileCount": 102,
+      "wordCount": {
+        "min": 17,
+        "avg": 149.2,
+        "max": 306
+      },
+      "familyCounts": {
+        "agenda": 1,
+        "approach-process": 6,
+        "cover": 1,
+        "credentials": 1,
+        "photo-story": 6
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 108,
+          "charCount": 713,
+          "family": "cover",
+          "relationshipTypes": [
+            "hyperlink",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 3,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "This deck is part of the Pursuit COE proposal repository, designed to guide you as you create your own proposals and business development materials. Use it as a reference for structure and approach\u2014not for specific content. Always confirm t",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 17,
+          "charCount": 100,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Walmart + West Monroe July 8, 2025 Walmart Health & Wellness and West Monroe Strategic Partnership x",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 104,
+          "charCount": 699,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 3 Partnering with West Monroe to accelerate Pharmacy Modernization We\u2019re ready to invest alongside Walmart and your te",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 165,
+          "charCount": 1168,
+          "family": "credentials",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 18,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2024 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 4 About West Monroe West Monroe at-a-glance We\u2019re a global business and technology consulting firm that\u2019s passionate a",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 70,
+          "charCount": 460,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 12,
+            "pictures": 6,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 5 For 15+ years, we\u2019ve provided high quality resourcing to help you achieve tactical and strategic goals. Here\u2019s what ",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 99,
+          "charCount": 722,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 37,
+            "pictures": 8,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "WHERE WE\u2019VE PARTNERED Since 2010, we\u2019ve partnered with Walmart Health & Wellness to deliver hundreds of millions of dollars in value. \u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 143,
+          "charCount": 945,
+          "family": "agenda",
+          "relationshipTypes": [
+            "comments",
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 12,
+            "pictures": 4,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 7 Our experience with Walmart Health & Wellness makes us distinctively qualified to help. What makes us unique? Why We",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 173,
+          "charCount": 1278,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 0,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 8 We see three areas where West Monroe can engage to help Walmart accelerate the pharmacy modernization effort with th",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 104,
+          "charCount": 699,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 9 Partnering with West Monroe to accelerate Pharmacy Modernization We\u2019re ready to invest alongside Walmart and your te",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 177,
+          "charCount": 1289,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "comments",
+            "image",
+            "notesSlide",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 10,
+            "pictures": 15,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 10 And we leverage our experience across other retail and health care disciplines to help you lead the industry. PHARM",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 172,
+          "charCount": 1254,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 37,
+            "pictures": 19,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Platforms Expertise * Sales Strategy High Performing Product Organization Marketing Process & Technology Modern Integration Platform Technology Strategy & Enterprise Architecture Intelligent Workplace Service Strategy / Contact Center End U",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 12,
+          "wordCount": 306,
+          "charCount": 2395,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 16,
+            "pictures": 8,
+            "graphics": 1,
+            "tables": 1
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 12 Software Modernization Transform legacy applications to modern, resilient, efficient and secure applications levera",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-012.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 13,
+          "wordCount": 276,
+          "charCount": 1726,
+          "family": "approach-process",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 21,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 13 Co-Working together We partner with our clients\u2019 teams to identify areas that would benefit from co-sourcing to cre",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-013.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 14,
+          "wordCount": 151,
+          "charCount": 909,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 61,
+            "pictures": 4,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 14 The right team, right-sized for your challenge. HOW WE WORK We build each team according to the challenge they\u2019re t",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-014.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 15,
+          "wordCount": 173,
+          "charCount": 1137,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 12,
+            "pictures": 6,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2025 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 15 For 15+ years, we\u2019ve provided high quality resourcing to help you achieve tactical and strategic goals. Here\u2019s what",
+          "previewJpeg": "example-slide-previews/walmart-health-and-wellness-executive-leadership/slide-015.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/walmart-health-and-wellness-executive-leadership"
+    },
+    {
+      "path": "West_Monroe_-_Meeting_the_Moment_on_Customer_Affordability_SelectedSLides.pptx",
+      "fileName": "West_Monroe_-_Meeting_the_Moment_on_Customer_Affordability_SelectedSLides.pptx",
+      "slideCount": 12,
+      "mediaFileCount": 55,
+      "wordCount": {
+        "min": 11,
+        "avg": 127.8,
+        "max": 191
+      },
+      "familyCounts": {
+        "agenda": 3,
+        "content": 4,
+        "cover": 1,
+        "photo-story": 4
+      },
+      "slides": [
+        {
+          "slide": 1,
+          "wordCount": 11,
+          "charCount": 76,
+          "family": "cover",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 2,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "A Practical Guide for Utilities Meeting the Moment on Customer Affordability",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-001.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 2,
+          "wordCount": 97,
+          "charCount": 716,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 2 Why Customer Affordability Is a Strategic Priority for Utilities Utilities face mounting pressure. Grid modernizatio",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-002.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 3,
+          "wordCount": 55,
+          "charCount": 372,
+          "family": "agenda",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 9,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "\u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. 3 01 What You\u2019ll Get From This Guide Understand the Affordability Challenge How to Build and Manage an Affordability P",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-003.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 4,
+          "wordCount": 79,
+          "charCount": 574,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Utilities operate in an environment where affordability pressures are intensifying. Capital investment needs are rising due to grid modernization, renewable integration, and electrification initiatives. At the same time, policy changes such",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-004.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 5,
+          "wordCount": 183,
+          "charCount": 1323,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 23,
+            "pictures": 6,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Rising energy affordability pressures are being driven by a convergence of factors across the system. While stakeholders broadly align on the need for continued investment, tensions emerge around cost, pace, and risk. The following drivers ",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-005.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 6,
+          "wordCount": 191,
+          "charCount": 1498,
+          "family": "agenda",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 27,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "6 How to BUILD AND Manage AN AFFORDABILITY PORTFOLIO \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. Embedding Affordability Across the Organization A structured appr",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-006.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 7,
+          "wordCount": 191,
+          "charCount": 1449,
+          "family": "content",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 16,
+            "pictures": 0,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "7 How to BUILD AND Manage AN AFFORDABILITY PORTFOLIO \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior consent is prohibited. Applying Affordability Guardrails and Tradeoffs Translate metrics",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-007.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 8,
+          "wordCount": 67,
+          "charCount": 490,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 5,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Customer experience leaders are uniquely positioned to drive affordability outcomes faster than large-scale capital or regulatory changes. By focusing on cost to serve, program accessibility, and customer-facing design, CX teams can deliver",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-008.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 9,
+          "wordCount": 154,
+          "charCount": 1104,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "customXml",
+            "hdphoto",
+            "image",
+            "notesSlide",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 7,
+            "pictures": 2,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Reducing the cost to serve starts with addressing root causes. High call volumes and repeat contacts often stem from confusing bills, broken processes, and data gaps. Fixing these lowers costs and improves customer outcomes. Maximizing enro",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-009.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 10,
+          "wordCount": 171,
+          "charCount": 1249,
+          "family": "agenda",
+          "relationshipTypes": [
+            "customXml",
+            "image",
+            "oleObject",
+            "slideLayout",
+            "tags"
+          ],
+          "shapeSummary": {
+            "shapes": 27,
+            "pictures": 2,
+            "graphics": 1,
+            "tables": 0
+          },
+          "textPreview": "Energy efficiency and demand response reduce peak demand and overall consumption, allowing utilities to defer or avoid costly infrastructure investments. These avoided costs translate directly into lower and more stable customer bills. DSM ",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-010.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 11,
+          "wordCount": 169,
+          "charCount": 1237,
+          "family": "content",
+          "relationshipTypes": [
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 4,
+            "pictures": 1,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Utilities are at an inflection point where affordability is no longer a downstream consideration but a defining constraint that shapes every strategic decision. As investment needs accelerate and stakeholder expectations evolve, success wil",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-011.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        },
+        {
+          "slide": 12,
+          "wordCount": 165,
+          "charCount": 1216,
+          "family": "photo-story",
+          "relationshipTypes": [
+            "hdphoto",
+            "hyperlink",
+            "image",
+            "slideLayout"
+          ],
+          "shapeSummary": {
+            "shapes": 11,
+            "pictures": 5,
+            "graphics": 0,
+            "tables": 0
+          },
+          "textPreview": "Brian Rich Senior Partner brich@westmonroe.com Alex Chase Senior Partner achase@westmonroe.com Eric Chung Partner echung@westmonroe.com \u00a9 2026 West Monroe Partners | Reproduction and/or distribution without West Monroe Partners\u2019 prior conse",
+          "previewJpeg": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides/slide-012.jpg",
+          "usageNote": "Reference composition, pacing, density, hierarchy, and visual treatment; rebuild as editable HTML/CSS."
+        }
+      ],
+      "sourceNote": "User-supplied good-example deck used as layout taxonomy and visual inspiration only; do not copy client-confidential content or embed slide screenshots in generated output.",
+      "previewFolder": "example-slide-previews/west-monroe-meeting-the-moment-on-customer-affordability-selectedslides"
+    }
+  ]
+}

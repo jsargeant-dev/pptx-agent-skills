@@ -1,0 +1,215 @@
+{
+  "brand": {
+    "name": "West Monroe",
+    "spec_type": "typography",
+    "version": "2026-04-29-typography-only",
+    "status": "partial_v3_input"
+  },
+  "font_family": {
+    "headings": "IBM Plex Sans",
+    "body_copy": "Arial",
+    "heading_source": "Google Fonts or an approved self-hosted IBM Plex Sans equivalent",
+    "body_fallback_stack": "Arial, Helvetica, sans-serif",
+    "rule": "Use IBM Plex Sans for headings, headlines, display type, subheads, large statistics, and eyebrows. Use Arial for paragraphs, navigation, buttons, form labels, captions, and other UI copy."
+  },
+  "weights": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+  "kerning_to_css_letter_spacing": {
+    "0%": "0em",
+    "5%": "0.05em",
+    "10%": "0.10em"
+  },
+  "styles": [
+    {
+      "name": "Display",
+      "token": "display",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 700,
+      "case": "all_caps",
+      "font_size_px": 42,
+      "line_height_percent": 120,
+      "letter_spacing_em": 0.05
+    },
+    {
+      "name": "H1",
+      "token": "h1",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 700,
+      "case": "all_caps",
+      "font_size_px": 28,
+      "line_height_percent": 120,
+      "letter_spacing_em": 0.05
+    },
+    {
+      "name": "H2",
+      "token": "h2",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 700,
+      "case": "all_caps",
+      "font_size_px": 24,
+      "line_height_percent": 120,
+      "letter_spacing_em": 0.05
+    },
+    {
+      "name": "H3",
+      "token": "h3",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 700,
+      "case": "sentence_case",
+      "font_size_px": 20,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "Subhead",
+      "token": "subhead",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 700,
+      "case": "sentence_case",
+      "font_size_px": 30,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "P1",
+      "token": "p1",
+      "font_family": "Arial",
+      "font_weight": 400,
+      "case": "sentence_case",
+      "font_size_px": 36,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "P2",
+      "token": "p2",
+      "font_family": "Arial",
+      "font_weight": 400,
+      "case": "sentence_case",
+      "font_size_px": 18,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "P3",
+      "token": "p3",
+      "font_family": "Arial",
+      "font_weight": 400,
+      "case": "sentence_case",
+      "font_size_px": 16,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "P4",
+      "token": "p4",
+      "font_family": "Arial",
+      "font_weight": 400,
+      "case": "sentence_case",
+      "font_size_px": 14,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "P5",
+      "token": "p5",
+      "font_family": "Arial",
+      "font_weight": 400,
+      "case": "sentence_case",
+      "font_size_px": 11,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "Large Stats",
+      "token": "large_stats",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 500,
+      "case": "sentence_case",
+      "font_size_px": 120,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "Global Nav",
+      "token": "global_nav",
+      "font_family": "Arial",
+      "font_weight": 600,
+      "case": "sentence_case",
+      "font_size_px": 16,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "Sub Nav",
+      "token": "sub_nav",
+      "font_family": "Arial",
+      "font_weight": 400,
+      "case": "sentence_case",
+      "font_size_px": 25,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "Eyebrow",
+      "token": "eyebrow",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 700,
+      "case": "all_caps",
+      "font_size_px": 15,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0.1
+    },
+    {
+      "name": "Large Link",
+      "token": "large_link",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 700,
+      "case": "all_caps",
+      "font_size_px": 56,
+      "line_height_percent": 120,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "Title Link",
+      "token": "title_link",
+      "font_family": "IBM Plex Sans",
+      "font_weight": 700,
+      "case": "all_caps",
+      "font_size_px": 20,
+      "line_height_percent": 120,
+      "letter_spacing_em": 0
+    },
+    {
+      "name": "Title Link 2",
+      "token": "title_link_2",
+      "font_family": "Arial",
+      "font_weight": 700,
+      "case": "sentence_case",
+      "font_size_px": 12,
+      "line_height_percent": 130,
+      "letter_spacing_em": 0
+    }
+  ],
+  "extension_rules": [
+    "Additional variants may be created when they use the approved family for the content role and approved weights.",
+    "Use IBM Plex Sans for heading and display roles.",
+    "Use Arial for body-copy and UI-copy roles.",
+    "Use 120% line height for compact display, headline, and link styles.",
+    "Use 130% line height for sentence-case, body, navigation, stats, and utility styles.",
+    "All caps should be used sparingly for display hierarchy and not for long body copy.",
+    "Do not invent unrelated typography styles when a documented style fits the content role."
+  ],
+  "llm_rules": [
+    "Use IBM Plex Sans for headings, headlines, display type, subheads, large statistics, and eyebrows.",
+    "Use Arial for paragraphs, navigation, buttons, form labels, captions, and other UI copy.",
+    "Choose the named style closest to the content's role.",
+    "Map Bold to 700, Semibold to 600, Medium to 500, and Regular to 400.",
+    "For all-caps styles, use uppercase text or CSS text-transform uppercase.",
+    "For sentence-case styles, preserve natural capitalization."
+  ]
+}
