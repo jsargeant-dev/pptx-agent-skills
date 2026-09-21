@@ -17,7 +17,7 @@ function args(argv) {
 
 function usage() {
   console.error(`Usage:
-  node scripts/create-object-html-pptx.mjs --scene /path/to/scene.json --out /path/to/output.pptx --qa-dir /path/to/qa [--asset-base /path/to/html-folder]
+  node scripts/create-object-html-pptx.mjs --scene /path/to/scene.json --out /path/to/output.pptx --qa-dir /path/to/qa [--asset-base /path/to/html-folder] [--html /path/to/index.html]
 `);
   process.exit(2);
 }
@@ -29,6 +29,7 @@ const scenePath = options.scene;
 const outputPptx = options.out;
 const qaDir = options["qa-dir"] || path.join(path.dirname(outputPptx), "qa");
 const assetBase = options["asset-base"] || path.dirname(scenePath);
+const htmlSource = options.html || "";
 
 function normalizeColor(value, fallback = "#000000") {
   if (!value) return fallback;
@@ -77,7 +78,12 @@ for (const slideScene of scene.slides) {
   const slide = presentation.slides.add();
   slide.background.fill = normalizeColor(slideScene.background, "#ffffff");
 
-  for (const item of slideScene.elements) {
+  const elements = slideScene.elements
+    .map((item, index) => ({ item, index }))
+    .sort((a, b) => (a.item.zIndex || 0) - (b.item.zIndex || 0) || (a.item.order ?? a.index) - (b.item.order ?? b.index))
+    .map(({ item }) => item);
+
+  for (const item of elements) {
     const position = item.position;
     if (position.width <= 0 || position.height <= 0) continue;
 
@@ -147,4 +153,31 @@ await writeBlob(path.join(qaDir, "montage.webp"), await presentation.export({ fo
 
 const pptx = await PresentationFile.exportPptx(presentation);
 await pptx.save(outputPptx);
-console.log(JSON.stringify({ outputPptx, qaDir, slides: scene.slides.length, fullSlideImageCount }, null, 2));
+
+const objectCounts = scene.slides.reduce((counts, slide) => {
+  for (const item of slide.elements) counts[item.kind] = (counts[item.kind] || 0) + 1;
+  return counts;
+}, {});
+const reportPath = path.join(path.dirname(outputPptx), "conversion-report.json");
+await fs.writeFile(reportPath, JSON.stringify({
+  htmlSource,
+  scenePath,
+  outputPptx,
+  qaDir,
+  slideCount: scene.slides.length,
+  objectCounts,
+  textboxCount: objectCounts.text || 0,
+  shapeCount: objectCounts.shape || 0,
+  imageCount: objectCounts.image || 0,
+  tableCount: objectCounts.table || 0,
+  chartCount: objectCounts.chart || 0,
+  fullSlideImageCount,
+  renderer: "artifact-tool",
+  qaRenders: true,
+  knownFidelityDifferences: [
+    "Browser font metrics and PowerPoint font substitution may change line breaks.",
+    "Unsupported CSS effects remain outside the editable object mapping.",
+  ],
+}, null, 2), "utf8");
+
+console.log(JSON.stringify({ outputPptx, qaDir, reportPath, slides: scene.slides.length, objectCounts, fullSlideImageCount }, null, 2));

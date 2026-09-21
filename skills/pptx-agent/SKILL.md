@@ -7,6 +7,14 @@ description: Orchestrate the mandatory HTML-first PowerPoint workflow from sourc
 
 Use this as the top-level coordinator for building a presentation through an HTML-first workflow.
 
+## Canonical Pipeline Boundary
+
+This six-skill suite is the active PPTX pipeline. Its only supported export route is:
+
+`pptx-agent -> pptx-intake -> optional pptx-design-reference -> pptx-design -> pptx-brand-eval -> user HTML approval -> pptx-compiler`
+
+Do not route new work through legacy template-placement or alternate HTML-to-PPTX skills. The compiler owns the approved HTML-to-editable-PPTX conversion; template-specific placement is outside this suite unless a separate template workflow is explicitly restored.
+
 ## Start By Orienting The User
 
 If the user has not already answered these, ask before starting expensive work:
@@ -60,12 +68,14 @@ Keep the questions concise. If the user provides enough context, proceed and sta
    - Require the user to review and make or request necessary HTML design edits before PPTX compilation.
    - Offer the user clear next actions: request more HTML edits, run another brand eval, or approve the reviewed HTML for PPTX compilation.
    - Do not push to PPTX until the user explicitly approves the HTML deck for compilation.
+   - Keep the review package together in the project folder, including the intake package, reference map when references exist, slide plan, generated HTML, fit report, brand-eval result, and requested HTML revisions.
 
 7. **Optional PPTX Compiler**
    - By default, stop at the HTML deck for review and editing.
    - If the user approves PPTX generation, use `pptx-compiler` to convert the approved HTML into an editable PPTX.
    - Preserve text boxes, shapes, and individual images as editable PowerPoint objects.
    - Validate that slides were not flattened into full-slide screenshots.
+   - Keep the scene JSON, compiler QA renders, structural inspection output, and conversion report beside the final PPTX.
 
 ## HTML Review Checklist
 

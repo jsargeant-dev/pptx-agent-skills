@@ -107,12 +107,17 @@ const scene = await page.evaluate(({ cleanUrlSource, slideSelector }) => {
     return text.replace(/\\s+/g, " ").trim();
   }
 
+  function explicitZIndex(style) {
+    const value = Number.parseInt(style.zIndex, 10);
+    return Number.isFinite(value) ? value : 0;
+  }
+
   const slides = [...document.querySelectorAll(slideSelector)].map((slide, slideIndex) => {
     const slideRect = slide.getBoundingClientRect();
     const slideStyle = getComputedStyle(slide);
     const elements = [];
 
-    for (const el of [...slide.querySelectorAll("*")]) {
+    for (const [order, el] of [...slide.querySelectorAll("*")].entries()) {
       const style = getComputedStyle(el);
       if (style.display === "none" || style.visibility === "hidden" || Number(style.opacity) === 0) continue;
       const box = rectFor(el, slideRect);
@@ -122,16 +127,21 @@ const scene = await page.evaluate(({ cleanUrlSource, slideSelector }) => {
       const classes = [...el.classList];
       const backgroundColor = colorValue(style.backgroundColor);
       const backgroundImage = cleanUrl(style.backgroundImage);
-      const text = (textTags.has(tag) || ((tag === "SPAN" || tag === "STRONG") && !isInsideCapturedText(el)))
+      const ownText = directText(el);
+      const hasBlockTextDescendant = Boolean(el.querySelector("p,h1,h2,h3,li,div"));
+      const hasInlineTextDescendant = Boolean(el.querySelector("span,strong,em,a"));
+      const isGenericTextContainer = ownText && !isInsideCapturedText(el) && !hasBlockTextDescendant && !hasInlineTextDescendant;
+      const text = (textTags.has(tag) || ((tag === "SPAN" || tag === "STRONG") && !isInsideCapturedText(el)) || isGenericTextContainer)
         ? el.textContent.replace(/\\s+/g, " ").trim()
         : "";
+
+      const base = { order, zIndex: explicitZIndex(style), classes, position: box };
 
       if (tag === "IMG") {
         elements.push({
           kind: "image",
           tag,
-          classes,
-          position: box,
+          ...base,
           src: el.currentSrc || el.getAttribute("src"),
           fit: style.objectFit === "cover" ? "cover" : "contain",
           alt: el.getAttribute("alt") || "",
@@ -139,22 +149,20 @@ const scene = await page.evaluate(({ cleanUrlSource, slideSelector }) => {
         continue;
       }
 
-      if (backgroundColor && !text) {
+      if (backgroundColor) {
         elements.push({
           kind: "shape",
           shape: classes.includes("timeline-arrow") ? "rightArrow" : "rect",
-          classes,
-          position: box,
+          ...base,
           fill: backgroundColor,
         });
       }
 
-      if (backgroundImage && !text) {
+      if (backgroundImage) {
         elements.push({
           kind: "image",
           tag,
-          classes,
-          position: box,
+          ...base,
           src: backgroundImage,
           fit: "contain",
           alt: classes.join(" ") || "decorative asset",
@@ -168,8 +176,7 @@ const scene = await page.evaluate(({ cleanUrlSource, slideSelector }) => {
         elements.push({
           kind: "text",
           tag,
-          classes,
-          position: box,
+          ...base,
           text,
           style: {
             color: textFill,
@@ -191,7 +198,13 @@ const scene = await page.evaluate(({ cleanUrlSource, slideSelector }) => {
     };
   });
 
-  return { width: 1280, height: 720, slides };
+  const firstSlide = document.querySelector(slideSelector);
+  const firstSlideRect = firstSlide?.getBoundingClientRect();
+  return {
+    width: Math.round(firstSlideRect?.width || 1280),
+    height: Math.round(firstSlideRect?.height || 720),
+    slides,
+  };
 }, { cleanUrlSource: cleanUrl.toString(), slideSelector });
 
 await browser.close();

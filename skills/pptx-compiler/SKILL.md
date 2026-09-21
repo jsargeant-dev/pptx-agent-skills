@@ -1,11 +1,15 @@
 ---
 name: pptx-compiler
-description: Compile an approved 16:9 HTML slide deck into an editable object-level PPTX. Use after pptx-design and user HTML approval to extract the HTML DOM, optionally map semantic regions toward JSX-style presentation objects, rebuild text, shapes, and images as editable PowerPoint objects, and validate that slides were not flattened to screenshots.
+description: Compile an approved 16:9 HTML slide deck into an editable object-level PPTX. Use after pptx-design and explicit HTML approval to extract the HTML DOM, map supported regions to presentation objects, rebuild text, shapes, and images, and validate the resulting PowerPoint without flattening slides.
 ---
 
 # PPTX Compiler
 
 Use this skill after the HTML deck has been visually reviewed and approved. The HTML is the source of truth.
+
+## Pipeline Boundary
+
+This is the canonical export stage for the PPTX Agent suite. It is self-contained and must not depend on a separate template-placement skill or on hardcoded paths to another installed skill.
 
 ## Output Contract
 
@@ -68,10 +72,13 @@ node "$SKILL_DIR/scripts/create-object-html-pptx.mjs" \
   --scene "$WORKSPACE/tmp/html-object-scene.json" \
   --out "$WORKSPACE/output/deck.pptx" \
   --qa-dir "$WORKSPACE/tmp/qa-objects" \
+  --html "$HTML_DECK" \
   --asset-base "$(dirname "$HTML_DECK")"
 ```
 
 6. Validate structure and visual output.
+
+Keep these artifacts in the project folder: approved HTML, scene JSON, generated source or command log, QA renders, inspection output, and the generated `conversion-report.json`. Do not write generated artifacts into the skill directory.
 
 ## Validation
 
@@ -79,11 +86,19 @@ Run:
 
 - `unzip -t "$WORKSPACE/output/deck.pptx"`
 - inspect the generated `.inspect.ndjson`
+- run the bundled presentation structural test when available:
+  `slides_test.py "$WORKSPACE/output/deck.pptx"`
 - confirm slide count
 - confirm editable textbox count is nonzero where text exists
 - confirm shape and individual image counts are plausible
 - confirm unintended full-slide image count is `0`
 - review QA PNGs/contact sheet when available
+
+The conversion report must record the HTML path, scene path, PPTX path, slide count, textbox count, shape count, image count, table/chart count when applicable, full-slide image count, renderer used, and known fidelity differences.
+
+## Current Mapping Limits
+
+The extractor and builder are intended for editable HTML/CSS scenes, not a general browser-to-OOXML conversion. Before delivery, specifically check generic text containers, background shapes behind text, overlays and z-order, font substitution, borders/radius/opacity, image crops, tables, and charts. If an effect cannot be represented safely, preserve the audience-facing text and data as editable objects and document the smallest intentional rasterized exception.
 
 ## Handoff
 
@@ -99,4 +114,3 @@ Report:
 - full-slide image count
 - visual QA status
 - any known fidelity differences
-
