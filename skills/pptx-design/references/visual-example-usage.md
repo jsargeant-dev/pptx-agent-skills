@@ -1,18 +1,18 @@
 # Visual Example Usage
 
-Use `visual-example-index.json` and `example-slide-previews/` when the deck needs stronger visual variety, richer pacing, or a closer match to the good-example West Monroe slide corpus.
+Use `composition-patterns.json` first, then `visual-example-index.json` and `example-slide-previews/` to inspect the few examples shortlisted for each slide. When bundled examples are part of the pipeline, reference selection is required rather than an optional remedy for a repetitive deck.
 
 ## How To Use The Previews
 
-- Start with each deck's contact sheets to understand rhythm, slide density, section pacing, and repeated visual motifs.
-- Open individual slide JPEGs only for the few examples most relevant to the current slide type.
+- Start with `composition-patterns.json` to match slide purpose and density to two or three candidate patterns.
+- Open the cited individual slide JPEGs and only the contact sheets needed to understand surrounding rhythm.
 - Translate useful patterns into editable HTML/CSS using the slide template system.
 - Favor varied silhouettes across adjacent slides: mix statement/photo, executive summary, proof, process, agenda, dense-detail, and credentials patterns when the story supports it.
 - Use `source-deck-corpus.json` for slide family, word count, media density, and text-preview metadata before opening image previews.
 
 ## Good Uses
 
-- Choosing a more interesting composition for a slide that otherwise maps to a repetitive template.
+- Choosing the composition before selecting template components, so the template cannot become the default layout answer.
 - Matching the density, hierarchy, and visual pacing of a relevant reference slide.
 - Borrowing layout logic such as split emphasis, quote/photo tension, proof blocks, process lanes, or executive-summary grids.
 - Checking whether a deck overuses the same structure across several consecutive slides.

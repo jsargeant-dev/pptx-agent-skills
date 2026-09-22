@@ -1,98 +1,100 @@
 ---
 name: pptx-design
-description: Turn a PPTX intake package into a West Monroe branded 16:9 HTML slide deck for review. Use after pptx-intake, or with clear source content, to plan the deck, write slide-ready copy, select linked brand assets, map content to HTML slide layouts, build the editable HTML deck, and run fit checks before PPTX compilation.
+description: Turn a PPTX intake package and required reference map into a West Monroe branded 16:9 editable HTML slide deck. Use to plan slide compositions, write slide-ready copy, select inspected brand assets, build HTML, and run reference-influence, asset, density, and fit validation before brand evaluation.
 ---
 
 # PPTX Design
 
-Use this skill for the design stage of the PPTX Agent pipeline. The output is an editable 1280x720 HTML deck, not the final PowerPoint file.
+Create an editable 1280x720 HTML deck for review. Do not create the final PowerPoint file.
 
-This skill combines the prior mapping, writer, brand pass, asset selection, and HTML builder responsibilities because they all affect the reviewed HTML deck.
+## Inputs And Design Authority
 
-## Inputs
+Prefer a `pptx-intake` package. If the pipeline has user-supplied or bundled examples, a `pptx-design-reference` brief and `reference-map.json` are required, not optional.
 
-Prefer a `pptx-intake` package. If only raw source is provided, first identify the audience, purpose, core story, evidence, constraints, and gaps before building slides.
+Use this hierarchy:
 
-When the user provides example PPTX or HTML slides as branded references, direct slide examples, or inspiration, use a `pptx-design-reference` brief as an optional input. Treat that brief as guidance for patterns, visual intent, and specific replication asks, not as a replacement for this skill's templates or design rules.
+1. Source content controls meaning and evidence.
+2. Selected references control composition, hierarchy, pacing, density, and layout silhouettes.
+3. `$west-monroe-brand-for-ui-ux` controls typography, colors, logo rules, surfaces, accessibility, and approved brand behavior.
+4. The packaged template supplies the 16:9 shell, brand components, and useful primitives. It must not become the default layout answer for content slides.
 
-## Required Resources
+## Resources
 
-Use bundled resources in this skill:
+- `references/composition-patterns.json`: compact first-pass pattern library. Read this before opening many previews.
+- `references/design-plan-contract.md`: required slide-plan and asset-selection contract.
+- `references/visual-example-index.json` and `references/example-slide-previews/`: evidence behind selected patterns.
+- `references/source-deck-corpus.json`: slide-family and density metadata.
+- `references/slide-template-index.json`: available template nodes for appropriate utility slides or scaffolds.
+- `references/story-mapping-rules.md` and `references/copy-fit-rules.md`: narrative and fit rules.
+- `assets/template/index.html`: brand shell and reusable components.
+- `references/hosted-asset-catalog.json`: cached hosted asset aliases.
 
-- `assets/template/index.html` for the HTML slide system.
-- `references/slide-template-index.json` for available slide archetypes and copy limits.
-- `references/source-deck-corpus.json` when the user wants the 9 good-example PPTX decks reflected in layout decisions.
-- `references/visual-example-usage.md` and `references/visual-example-index.json` when the deck needs stronger design variety or the user provides good-example decks to copy as visual inspiration.
-- `references/story-mapping-rules.md` and `references/copy-fit-rules.md` for story and fit decisions.
-- `references/hosted-asset-catalog.json` for cached hosted asset aliases.
-
-Use `wm-brand-assets` as an external skill when searching for content-matched West Monroe logos, icons, accents, or photos. Do not bundle `wm-brand-assets` with this skill.
+Use `$wm-brand-assets` for approved logos, icons, accents, or photography. The asset skill discovers and verifies files; it does not decide the deck's composition.
 
 ## Workflow
 
-1. Plan the deck.
-   - Convert the intake into a concise slide sequence.
-   - Choose slide structures by story function, not by source order.
-   - Use the source-deck corpus as taxonomy guidance, not as screenshots to embed.
-   - Use the visual example previews to vary composition, pacing, and visual hierarchy when the deck would otherwise feel repetitive.
-   - If a `pptx-design-reference` brief exists, decide which patterns or replication notes should influence each slide.
+### 1. Plan The Story And Composition
 
-2. Write slide-ready copy.
-   - Create concise headlines, bullets, cards, callouts, metrics, and labels.
-   - Preserve mandatory claims, evidence, names, metrics, and dates.
-   - Split dense content across slides rather than shrinking text until it fits.
-   - Size containers to the approved copy. Do not place a short amount of text in a large fixed-height box merely to fill a template slot.
-   - Follow `references/copy-fit-rules.md` for both overflow and content-to-container density decisions.
+- Convert intake into a concise slide sequence by story function, not source order.
+- Assign each slide a `layout_mode`: `template-node`, `reference-derived`, or `custom-synthesis`.
+- For every content slide, select references and record borrowed composition moves before choosing components.
+- Use direct template nodes mainly for covers, agendas, speakers, and section dividers.
+- For decks with four or more content slides, use at least three distinct composition recipes unless a documented content-driven exception explains why fewer are better.
+- Do not use the same base silhouette on adjacent content slides.
 
-3. Run a brand and asset pass.
-   - Keep voice clear, practical, outcome-focused, and West Monroe aligned.
-   - Use linked hosted assets. Do not use `data:` URIs.
-   - Prefer `wm-brand-assets` for content-matched asset search, then place selected hosted URLs in the slide plan.
-   - Translate off-brand references into West Monroe standards rather than copying their colors, fonts, logos, or visual system.
+### 2. Write Slide-Ready Copy
 
-4. Build the HTML deck.
-   - Draft a slide plan JSON with selected template nodes and slot values.
-   - Rebuild any copied reference pattern as editable HTML/CSS. Do not embed example slide JPEGs or full-slide screenshots.
-   - Run `scripts/build_deck.py` with `--linked-assets`.
-   - Run `scripts/evaluate_fit.py` on the generated `index.html`.
-   - Render every slide and run a visual density review. Flag cards, panels, and boxes whose meaningful content occupies less than roughly half of the interior height without a functional reason.
-   - Resolve underfilled surfaces by shrinking or removing the container, choosing a more suitable layout, increasing type within the established hierarchy, or adding only message-strengthening content. Never add filler copy.
-   - Preserve each template's relational geometry during density fixes. If resizing breaks an overlap, connector, shared edge, or other intended relationship, select another template or create a compatible content-shaped variant.
+- Preserve mandatory claims, evidence, names, metrics, and dates.
+- Write concise headlines, labels, callouts, and proof points sized for the selected composition.
+- Split dense content instead of shrinking text below the hierarchy.
+- Never add filler to occupy a large template surface.
 
-5. Prepare for review.
-   - Fix avoidable overflow and underfilled-surface errors before handoff.
-   - Hand the initial generated HTML to `pptx-brand-eval` before user review.
-   - When invoked with brand-eval findings, perform only the one automatic brand revision allowed by `pptx-agent` unless the user explicitly asks for additional revisions.
-   - Apply only brand-eval fixes in HTML/CSS: colors, font roles, logo treatment, surface styling, spacing, asset treatment, and table/chart/graph styling.
-   - Do not change story, slide order, approved copy, template choice, or page structure during the automatic brand-revision pass unless the issue is itself a brand violation.
-   - Do not flatten slides, replace editable text with images, or break the HTML-to-JSX-to-PPTX structure.
-   - Give the user the HTML path and ask for review before `pptx-compiler`.
+### 3. Run A Deliberate Asset Pass
 
-## Slide Plan Contract
+- Define the semantic role before searching: logo, explanatory icon, evidence image, editorial photo, or optional accent.
+- Use `$wm-brand-assets` to return a small candidate set and visually inspect final photo/graphic candidates.
+- Record the query, candidate URLs, selected URL, inspection status, placement, crop intent, and rationale in the slide plan.
+- `none` is a valid and preferred decision when an asset would be decorative filler.
+- Use the positive Grounded Blue horizontal logo on light surfaces and the white/reversed horizontal logo on dark surfaces. Never improvise or recolor a logo.
+- Avoid repeating one stock image, using abstract art unrelated to the message, or substituting photography for an information structure.
 
-Use this JSON shape with `scripts/build_deck.py`:
+### 4. Validate The Plan Before HTML
 
-```json
-{
-  "title": "Client or Deck Title",
-  "slides": [
-    {
-      "node": "1:2",
-      "slots": {
-        "headline": "Short rewritten headline",
-        "body": "Optional supporting copy",
-        "image_src": "https://assets.westmonroe-cloud.com/example/path.svg"
-      }
-    }
-  ]
-}
+Run:
+
+```bash
+python3 scripts/validate_design_plan.py /path/to/slide-plan.json
 ```
 
-Supported slot keys include `headline`, `kicker`, `body`, `bullets`, `card_titles`, `card_bodies`, `image_src`, `images`, `logo_src`, `icon_urls`, `asset_overrides`, `agenda_items`, `summary_titles`, `summary_bodies`, `decision_text`, `metric_values`, `metric_labels`, `column_titles`, `column_bullets`, `case_result`, `credential_titles`, and `credential_bodies`.
+Do not build HTML until the plan passes. Correct missing references, template overuse, adjacent repetition, weak asset decisions, and logo-context errors first.
+
+### 5. Build Editable HTML
+
+- Rebuild selected patterns as native HTML text, shapes, borders, images, and diagrams.
+- When all slides intentionally use template nodes, `scripts/build_deck.py` may populate them.
+- When any slide is `reference-derived` or `custom-synthesis`, use the template as the document shell and author the slide section directly; a template node may be used only as a starting scaffold and must be materially recomposed.
+- Never embed reference-slide JPEGs, full-slide screenshots, rasterized text, or `data:` URIs.
+- Keep the DOM compatible with editable HTML-to-PPTX compilation.
+
+### 6. Run Design QA
+
+- Render every slide and a full contact sheet.
+- Compare each content slide to its reference-map entry. Confirm the listed composition moves are observable.
+- Confirm at least three distinct silhouettes when required, no adjacent repeated base layout, and no template-dominated content sequence.
+- Flag large underfilled panels, card-grid defaults, decorative images, incorrect logo contrast, and assets that were not visually inspected.
+- Run `scripts/evaluate_fit.py` and fix avoidable overflow or density problems.
+- If reference influence is weak, perform one targeted design correction before brand evaluation.
+
+### 7. Brand Evaluation And Review
+
+- Send the initial HTML and asset register to `pptx-brand-eval`.
+- Apply at most the one automatic brand-only revision allowed by `pptx-agent`.
+- Do not change story, approved copy, or successful reference-derived composition during that brand-only pass unless the issue is itself a brand violation.
+- Stop at HTML and ask for user review before `pptx-compiler`.
 
 ## Commands
 
-Run from the skill folder or pass absolute paths:
+For an all-template utility deck only:
 
 ```bash
 python3 scripts/build_deck.py \
@@ -101,22 +103,15 @@ python3 scripts/build_deck.py \
   --outdir /path/to/output-folder \
   --asset-catalog references/hosted-asset-catalog.json \
   --linked-assets
+```
 
+For every deck:
+
+```bash
 python3 scripts/evaluate_fit.py /path/to/output-folder/index.html \
   --out /path/to/output-folder/eval.json
 ```
 
-## Validation
+## Handoff
 
-Before handing off to `pptx-compiler`, report:
-
-- HTML path
-- slide count
-- selected asset sources
-- reference brief used, if any
-- visual example previews used, if any
-- brand eval status, if completed
-- whether the one automatic brand revision was applied
-- fit evaluation result
-- visual density review result and any intentional low-density exceptions
-- remaining warnings or review notes
+Report the HTML path, slide count, reference map, composition recipes used, design-plan validation result, selected asset register, fit result, reference-influence QA, brand-eval result, automatic revision status, and remaining review notes.

@@ -1,5 +1,4 @@
 interface:
   display_name: "PPTX Design Reference"
-  short_description: "Analyze example slides for HTML deck design"
-  default_prompt: "Use $pptx-design-reference to analyze these example slides and create a design-reference brief for $pptx-design."
-
+  short_description: "Map example compositions to planned slides"
+  default_prompt: "Use $pptx-design-reference to select relevant supplied or bundled examples and create a per-slide reference map for $pptx-design."

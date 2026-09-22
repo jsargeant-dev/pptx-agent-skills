@@ -59,14 +59,15 @@ Every recommendation must preserve the HTML-to-JSX-to-PPTX path:
 
 ## Evaluation Workflow
 
-1. Inspect the generated HTML deck and any rendered screenshots if available.
+1. Inspect the generated HTML deck, rendered screenshots, and asset register. If the asset register is missing while the deck contains imagery, return a Major finding.
 2. Identify whether the deck includes charts, graphs, KPIs, tables, or data-heavy visuals.
-3. Apply the UX/UI brand baseline to every slide.
-4. Apply the data-visualization baseline only to tables, charts, graphs, KPIs, and data-heavy visuals.
-5. Produce brand-only findings with severity and specific, compile-safe remediation.
-6. If findings require edits, identify the exact brand-only items appropriate for the one automatic `pptx-design` revision before user review.
-7. Separate automatic revision recommendations from optional refinements that should wait for user review.
-8. If no blocking brand issues remain, state that the HTML can proceed to user review or PPTX compilation approval.
+3. Apply the UX/UI brand baseline to every slide. Verify that light surfaces use the positive Grounded Blue horizontal logo and dark surfaces use the white/reversed horizontal logo.
+4. Verify every placed brand asset resolves to an approved inventory URL or documented local copy, preserves its packaged appearance, and matches its declared semantic role. Treat an uninspected photo/graphic, an improvised logo, or a wrong-context logo variant as a Blocker.
+5. Apply the data-visualization baseline only to tables, charts, graphs, KPIs, and data-heavy visuals.
+6. Produce brand-only findings with severity and specific, compile-safe remediation.
+7. If findings require edits, identify the exact brand-only items appropriate for the one automatic `pptx-design` revision before user review.
+8. Separate automatic revision recommendations from optional refinements that should wait for user review.
+9. If no blocking brand issues remain, state that the HTML can proceed to user review or PPTX compilation approval.
 
 ## Finding Severity
 

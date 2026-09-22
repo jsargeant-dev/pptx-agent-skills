@@ -1,83 +1,85 @@
 ---
 name: pptx-design-reference
-description: Analyze user-provided PPTX or HTML slide examples as design references for the PPTX Agent. Use when the user supplies branded slides, example decks, HTML slides, or specific slides to emulate, reuse conceptually, or replicate in new PPTX Agent outputs while keeping pptx-design templates as the primary design rules.
+description: Analyze user-provided or bundled PPTX, PDF, and HTML examples as composition references for the PPTX Agent. Use before slide design to select relevant examples and produce a per-slide reference map that drives hierarchy, pacing, density, and layout silhouettes without copying full-slide images.
 ---
 
 # PPTX Design Reference
 
-Use this skill when the user provides existing PPTX or HTML slides as examples for the new deck.
+Use this skill before `pptx-design` whenever the user supplies examples, asks for example-informed design, or the PPTX pipeline includes bundled reference decks.
 
-This skill produces a design-reference brief for `pptx-design`. It does not build the final HTML deck, compile PPTX, or override the core `pptx-design` template rules.
+The output is a reference brief plus `reference-map.json`. It does not build the final deck.
+
+## Design Hierarchy
+
+Apply these roles without ambiguity:
+
+- Source content controls the story, claims, and required meaning.
+- Reference examples control composition, hierarchy, pacing, density, visual rhythm, and layout silhouettes.
+- West Monroe standards control typography, color, logo treatment, accessibility, surfaces, and editability.
+- The packaged template is a brand shell and component source. It is not the default composition system when relevant references exist.
+
+Do not let a template archetype override a selected reference pattern. Translate references into new editable HTML/CSS; never embed a full-slide screenshot.
+
+## Efficient Reference Selection
+
+Do not ask a lower-cost model to inspect the full reference corpus indiscriminately.
+
+1. Classify each planned slide by purpose and approximate density.
+2. Read `pptx-design/references/composition-patterns.json` and shortlist two or three compatible patterns per slide.
+3. Inspect the shortlisted individual previews and only the contact sheets needed to understand deck rhythm.
+4. Choose one primary pattern and, when helpful, one secondary influence per slide.
+5. Record the observable composition moves to borrow and what must not be copied.
+
+When the user supplies a new reference, add it to the brief even if it is not in the bundled pattern library.
 
 ## Reference Modes
 
-Classify each supplied reference into one of these modes:
+- **Inspiration:** borrow pacing, tone, density, or visual tension.
+- **Reference:** borrow a specific layout structure or information treatment.
+- **Replicate:** recreate the requested structure closely with new editable objects and approved branding.
+- **Content reuse:** extract approved copy, claims, tables, evidence, or narrative structure.
 
-- **Inspiration:** capture visual patterns, pacing, tone, density, and storytelling moves.
-- **Reference:** capture specific layout structures or content treatments that should inform new slides.
-- **Replicate:** identify slides or sections the user wants recreated closely in the new HTML deck.
-- **Content reuse:** extract copy, claims, tables, proof points, or narrative structure from the reference.
+## Required Extraction
 
-If the user's intent is unclear, infer conservatively and state the assumption in the brief.
+For each selected source, capture:
 
-## Rules
+- stable reference ID, source file, and slide/page number
+- preview path when bundled
+- slide purpose and density
+- silhouette, hierarchy, and reading order
+- specific composition moves to borrow
+- copy-to-region mapping
+- image role, if any
+- off-brand or client-specific elements to exclude
 
-- Treat uploaded PPTX/HTML as design input, not as the primary template system.
-- `pptx-design` templates, copy-fit rules, and West Monroe HTML slide system remain the primary design rules.
-- Do not embed reference slides as screenshots.
-- Do not copy off-brand colors, fonts, logos, or visual systems into final design unless the user explicitly requests a non-West Monroe output.
-- When a reference is not West Monroe branded, preserve useful structure or content while translating the final design into West Monroe standards through `pptx-design`.
-- When the user asks to reuse specific reference slides, describe what should be replicated as HTML objects: layout, hierarchy, text treatment, diagrams, tables, image placement, and interaction between elements.
+## Required Per-Slide Map
 
-## What To Extract
+Every output slide must include:
 
-For each relevant reference slide or section, capture:
-
-- source file and slide/page number
-- mode: inspiration, reference, replicate, or content reuse
-- slide purpose
-- visual structure
-- hierarchy and reading order
-- density and copy length
-- notable components: title treatment, cards, diagram, table, timeline, quote, proof point, image, icon, or callout
-- reusable content
-- brand risks or off-brand elements
-- handoff guidance for `pptx-design`
-
-## Handoff Format
-
-Produce a concise Markdown brief:
-
-```markdown
-# PPTX Design Reference Brief: <working title>
-
-## Reference Inventory
-
-| ID | Source | Slide/Page | Mode | Notes |
-|---|---|---:|---|---|
-
-## Patterns To Use
-
-- <pattern and where it came from>
-
-## Slides Or Elements To Replicate
-
-| Ref ID | What To Replicate | How pptx-design Should Interpret It |
-|---|---|---|
-
-## Content To Reuse
-
-- <copy, proof, data, or structure with source reference>
-
-## Off-Brand Or Avoid
-
-- <colors, typography, logos, layouts, claims, or density issues that should not carry forward>
-
-## Handoff To pptx-design
-
-- Recommended design direction:
-- Applicable slide moments:
-- Reference constraints:
-- User confirmations needed:
+```json
+{
+  "slide": 4,
+  "role": "content",
+  "purpose": "Show the operating-model shift",
+  "layout_mode": "reference-derived",
+  "reference_ids": ["ai-strategy-roadmap:s04"],
+  "composition_recipe": "asymmetric-operating-model",
+  "borrowed_moves": ["40/60 hierarchy", "numbered progression", "single focal proof block"],
+  "content_mapping": ["thesis -> left lead", "three changes -> right progression"],
+  "brand_shell": ["West Monroe palette", "IBM Plex headings", "approved logo variant"],
+  "avoid": ["equal-card grid", "decorative stock image", "copied client content"]
+}
 ```
+
+Allowed `layout_mode` values are `template-node`, `reference-derived`, and `custom-synthesis`. Use `template-node` mainly for covers, agendas, speakers, and section dividers. Content slides should normally be `reference-derived` or `custom-synthesis`.
+
+## Handoff
+
+Provide:
+
+- a concise Markdown inventory and design direction
+- `reference-map.json` using the contract above
+- the shortlisted previews actually inspected
+- any content-driven exception to pattern diversity
+- explicit instructions for `pptx-design` to preserve reference influence while translating brand details
 

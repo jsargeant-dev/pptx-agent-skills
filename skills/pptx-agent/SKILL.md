@@ -1,6 +1,6 @@
 ---
 name: pptx-agent
-description: Orchestrate the mandatory HTML-first PowerPoint workflow from source content through PPTX intake, reference-first design when examples are supplied, PPTX design, brand evaluation, HTML review, and separate editable PPTX compilation only after explicit HTML approval. Use when the user wants a guided PPTX Agent that always stops at HTML before any PPTX export.
+description: Orchestrate the mandatory HTML-first PowerPoint workflow from source content through PPTX intake, reference-first composition using supplied or bundled examples, PPTX design, brand evaluation, HTML review, and separate editable PPTX compilation only after explicit HTML approval. Use when the user wants a guided PPTX Agent that always stops at HTML before any PPTX export.
 ---
 
 # PPTX Agent
@@ -11,7 +11,7 @@ Use this as the top-level coordinator for building a presentation through an HTM
 
 This six-skill suite is the active PPTX pipeline. Its only supported export route is:
 
-`pptx-agent -> pptx-intake -> optional pptx-design-reference -> pptx-design -> pptx-brand-eval -> user HTML approval -> pptx-compiler`
+`pptx-agent -> pptx-intake -> pptx-design-reference -> pptx-design -> pptx-brand-eval -> user HTML approval -> pptx-compiler`
 
 Do not route new work through legacy template-placement or alternate HTML-to-PPTX skills. The compiler owns the approved HTML-to-editable-PPTX conversion; template-specific placement is outside this suite unless a separate template workflow is explicitly restored.
 
@@ -35,17 +35,18 @@ Keep the questions concise. If the user provides enough context, proceed and sta
    - Output a deck intake package before design work begins.
 
 2. **Reference-First Design**
-   - When the user supplies PPTX, HTML, or PDF references, or asks for reference-inspired slides, this stage is mandatory before design. Treat references as composition sources, not optional decoration.
-   - Use `pptx-design-reference` for user-provided examples, branded references, or specific slides they want replicated. For bundled examples, inspect the contact sheets first, then only the relevant individual previews.
-   - Select two to four source slides or archetypes and create a reference map before slide planning. For every output slide, record the reference slide/archetype, composition moves to borrow, copy/content mapping, and elements to avoid copying.
+   - This stage is mandatory when the user supplies references, asks for reference-inspired slides, or bundled good-example decks are available. Treat references as composition sources, not optional decoration.
+   - Use `pptx-design-reference` for user-provided examples, branded references, or specific slides they want replicated. For bundled examples, shortlist from the compact composition-pattern library, inspect the cited previews, then open only the contact sheets needed to understand pacing.
+   - Use the compact composition-pattern library to shortlist examples before opening previews. Select one primary and, when useful, one secondary source per slide. For every output slide, record the reference IDs, composition recipe, observable moves to borrow, copy/content mapping, and elements to avoid copying.
    - The template and West Monroe standards govern brand, editability, canvas, typography, color, and surface constraints. Reference slides govern composition, pacing, density, layout silhouettes, and visual rhythm.
    - Never embed a reference slide or use a full-slide screenshot. Rebuild the selected composition as new editable HTML with the new copy and linked assets.
 
 3. **PPTX Design**
    - Use `pptx-design` to turn the intake package and reference map into a slide plan, slide-ready copy, brand-aware linked asset choices, and an editable 16:9 HTML deck. Require it to build new slides from the selected reference archetypes, not just reuse the template shell.
-   - For decks of four or more slides, use at least three distinct reference-derived composition patterns when the content supports it. Document any content-driven exception in the reference map.
+   - For decks with four or more content slides, use at least three distinct reference-derived composition patterns when the content supports it. Document any content-driven exception in the reference map.
    - When the user wants less repetition, stronger design, or good-example deck influence, tell `pptx-design` to inspect the bundled visual example previews and contact sheets and use them as a layout taxonomy and composition reference, not merely as style hints.
-   - Use `wm-brand-assets` as an external image source when hosted West Monroe logos, icons, accents, or photos are needed. Do not package `wm-brand-assets` into this agent.
+   - Use `wm-brand-assets` as an external image source when hosted West Monroe logos, icons, accents, or photos are needed. Require a per-slide asset decision with a semantic role, inspected candidates, selected URL or explicit `none`, and rationale. Do not package `wm-brand-assets` into this agent.
+   - Require `pptx-design` to validate the slide plan before HTML. A plan fails if content slides lack references, direct template layouts dominate, adjacent content slides repeat one silhouette, asset choices are uninspected, or logo variants conflict with their background.
    - Require `pptx-design` to run both overflow fit checks and visual content-density QA before brand evaluation. Large boxes with only a few lines of copy must be resized, removed, replaced with a better layout, or strengthened with useful content rather than filler.
 
 4. **Reference Influence QA**
@@ -53,6 +54,8 @@ Keep the questions concise. If the user provides enough context, proceed and sta
    - Confirm every slide has observable reference-derived composition moves, the deck is not a repeated template shell, and the layouts are shaped by the content. Confirm the reference pattern was rebuilt as editable HTML rather than copied as a screenshot.
    - If reference influence is weak or missing, route one targeted reference-first design correction back through `pptx-design` before brand evaluation. This is separate from the single automatic brand-only revision.
    - Record the reference-influence result and any documented exception in the handoff.
+   - Confirm direct template-node slides are limited to utility moments or a documented exception and do not exceed 40% of content slides.
+   - Confirm assets support a defined message role; decorative filler and uninspected photo choices fail this gate.
 
 5. **PPTX Brand Eval And One Revision**
    - Use `pptx-brand-eval` after `pptx-design` and before user HTML review.
@@ -97,7 +100,7 @@ If edits are requested, return to `pptx-design` and regenerate or patch the HTML
 ## Operating Rules
 
 - Keep all work in the current project or thread folder.
-- Keep intake, optional reference brief, slide plan, HTML, scene JSON, QA renders, and final PPTX as separate artifacts.
+- Keep intake, reference brief and map, slide plan, HTML, scene JSON, QA renders, and final PPTX as separate artifacts.
 - When references are present, keep the reference map with the intake and slide plan; reference-first design is required and template shells must not override selected archetypes.
 - Treat HTML as the visual source of truth.
 - Never offer a straight-to-PPTX path at intake. PPTX generation is a separate post-HTML-approval action.
